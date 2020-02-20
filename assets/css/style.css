@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*---------------------------------------------- Media queries ----------------*/
+
+@media screen and (max-width: 800px){
+    .navbar-nav {
+        height: 100vh;
+    }
+}

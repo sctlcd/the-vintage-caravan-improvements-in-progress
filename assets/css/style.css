@@ -22,9 +22,9 @@ h4 {
 
 /*---------------------------------------------- Header ----------------*/
 
-header {
-    min-height: 80px
-}
+/* header {
+    max-height: 80px
+} */
 
 /* Navbar */
 
@@ -48,6 +48,30 @@ header {
     border-color: rgba(255,255,255,.3);
 }
 
+
+.main-container {
+    height: 90vh;
+    background: url(../images/beautiful-cosmos-galaxy-milky-way-262662.jpg) no-repeat bottom right fixed;  /*-- beautiful-cosmos-galaxy-milky-way-262662.jpg --*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
 
 /*---------------------------------------------- Footer ----------------*/
 
@@ -92,9 +116,6 @@ footer {
 @media screen and (max-width: 992px){
     .navbar-nav {
         height: 100vh;
-    }
-
-    .navbar-nav {
         margin-top: 50px;
     }
 
@@ -112,9 +133,6 @@ footer {
 @media screen and (max-width: 768px ) {
     .navbar-nav {
         height: 100vh;
-    }
-
-    .navbar-nav {
         margin-top: 50px;
     }
 

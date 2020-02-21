@@ -37,6 +37,7 @@ h4 {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-size: 18px;
+    padding-right: 20px;
 }
 
 .brand-logo {
@@ -53,13 +54,14 @@ h4 {
     border-color: rgba(255,255,255,.3);
 }
 
+/*---------------------------------------------- Home page ----------------*/
 
 .container-wrapper {
     min-height: 100vh
 }
 
 .bg-cover {
-    background: url(../images/beautiful-cosmos-galaxy-milky-way-262662.jpg) no-repeat bottom right fixed;  /*-- beautiful-cosmos-galaxy-milky-way-262662.jpg --*/
+    background: url(../images/galaxy-background.jpg) no-repeat bottom right fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -72,19 +74,89 @@ h4 {
     position: relative;
 }
 
-.video-container {
+.container-video {
     padding-left: 0;
     padding-right: 0;
 }
 
-.container-wrapper .overlay {
+.container-about .overlay {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 90%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
-    z-index: 1;
+    /* z-index: 1; */
+}
+
+.container-about {
+    color: #fafafa;
+    /* margin-bottom: 50px; */
+    max-width: 100%;
+    width: 100%;
+    /* font-size: 16px; */
+    /* z-index: 0; */
+}
+
+.about {
+    color: #fafafa;
+    margin-left: 80px;
+    max-width: 80%;
+    width: 100%;
+    text-justify: auto;
+    scroll-margin-bottom: 50px;
+    display: block;
+}
+
+.about-description {
+    margin-bottom: 70px;
+}
+
+.about-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+
+/* Carousel */
+
+.container-carousel {
+    max-width: 20%;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    display: block;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+    color: #fafafa;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+/* .carousel-control-prev, .carousel-control-next, .carousel-item.active {
+    display: block !important;
+} */
+
+/*
+Forces carousel image to be 100% width and not max width of 100%
+*/
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+
+.carousel-inner .carousel-control-next .carousel-control-next-icon {
+    color: #000000;
 }
 
 /*---------------------------------------------- Footer ----------------*/
@@ -98,7 +170,6 @@ h4 {
     position: absolute;
     bottom: 0;
     width: 100%;
-
 }
 
 .social-links {
@@ -157,5 +228,14 @@ h4 {
         margin-left: 70px; 
         font-weight: 500;
         font-size: 25px;      
-}
+    }
+
+    .container-carousel {
+    max-width: 60%;
+    width: 100%;
+    }
+
+    .container-about {
+        font-size: 10px;
+    }
 }

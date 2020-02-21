@@ -1,35 +1,109 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Table of Contents <a name="TableOfContents"></a>
 
-Welcome USER_NAME,
+1. [UX](#UX)
+	- [User Stories](#UserStories)
+	- [Design](#Design)
+		- [Color Scheme](#ColorScheme)
+		- [Icons](#Icons)
+		- [Typography](#Typography)
+	- [Wireframes](#Wireframes)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+2. [Features](#Features)
 
-## Gitpod Reminders
+	- [Existing Features](#ExistingFeatures)
+	- [Features Left to Implement](#FeaturesLeftToImplement)
+	
+3. [Technologies Used](#TechnologiesUsed)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+4. [Testing](#Testing)
 
-A blue button should appear to click: *Expose*,
+	- [Known Issues](#KnownIssues)
 
-Another blue button should appear to click: *Open Browser*.
+5. [Deployment](#Deployment)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+6. [Credits](#Credits)
 
-A blue button should appear to click: *Expose*,
+	- [Content](#Content)
+	- [Media](#Media)
+	- [Code](#Code)
+	- [Acknowledgements](#Acknowledgements)
+	
+---
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## UX  <a name="UX"></a>
+some text
 
-## Updates Since The Instructional Video
+### User Stories <a name="UserStories"></a>
+some text
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Design <a name="Design"></a>
+some text
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Color Scheme <a name="ColorScheme"></a>
+some text
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Icons <a name="Icons"></a>
+some text
 
---------
+#### Typography <a name="Typography"></a>
+some text
 
-Happy coding!
+### Wireframes <a name="Wireframes"></a>
+some text
+
+Back to [top](#TableOfContents)
+
+---
+
+## Features <a name="Features"></a>
+
+### Existing Features <a name="ExistingFeatures"></a>
+some text
+
+### Features Left to Implement <a name="FeaturesLeftToImplement"></a>
+some text
+
+Back to [top](#TableOfContents)
+
+---
+
+## Technologies Used <a name="TechnologiesUsed"></a>
+
+Back to [top](#TableOfContents)
+
+---
+
+## Testing <a name="Testing"></a>
+
+### Known Issues <a name="KnownIssues"></a>
+some text
+
+Back to [top](#TableOfContents)
+
+---
+
+## Deployment <a name="Deployment"></a>
+
+Back to [top](#TableOfContents)
+
+---
+
+## Credits <a name="Credits"></a>
+
+### Content <a name="Validators"></a>
+some text
+
+### Media <a name="Media"></a>
+some text
+
+### Code <a name="Code"></a>
+some text
+
+### Acknowledgements <a name="Acknowledgements"></a>
+some text
+
+Back to [top](#TableOfContents)
+
+---

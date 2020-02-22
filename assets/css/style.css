@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i|Space+Mono:400,400i,700,700i&display=swap');
 
+html {
+    position: relative;
+    min-height: 100%
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -22,9 +27,9 @@ h4 {
 
 /*---------------------------------------------- Header ----------------*/
 
-header {
-    min-height: 80px
-}
+/* header {
+    max-height: 80px
+} */
 
 /* Navbar */
 
@@ -32,6 +37,7 @@ header {
     font-family: "Rubik", sans-serif;
     font-weight: 400;
     font-size: 18px;
+    padding-right: 20px;
 }
 
 .brand-logo {
@@ -48,11 +54,104 @@ header {
     border-color: rgba(255,255,255,.3);
 }
 
+/*---------------------------------------------- Home page ----------------*/
+
+.container-wrapper {
+    min-height: 100vh
+}
+
+.bg-cover {
+    background: url(../images/galaxy-background.jpg) no-repeat bottom right fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.container-video {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-wrapper .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+} 
+
+.container-about {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    color: #fafafa;
+    font-weight: 400;
+    font-family: "Rubik",sans-serif;
+}
+
+.about-description {
+    margin-top: 30px;
+}
+
+.about-title {
+    margin-bottom: 20px;
+}
+
+.about-text {
+    margin-top: 0px;
+    margin-bottom: 20pxpx;
+    font-size: 16px;
+}
+
+/* Carousel */
+
+#carouselDiscography {
+    max-width: 20%;
+    /* width: 100%;*/
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+    color: #fafafa;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+/* .carousel-control-prev, .carousel-control-next, .carousel-item.active {
+    display: block !important;
+} */
+
+/*
+Forces carousel image to be 100% width and not max width of 100%
+*/
+/* .carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+} */
+
+.carousel-inner .carousel-control-next .carousel-control-next-icon {
+    color: #000000;
+}
 
 /*---------------------------------------------- Footer ----------------*/
 
-footer {
-    min-height: 80px;
+.footer {
+    /* min-height: 80px; */
     background: #000000;
     color: #fafafa;
     margin: 0;
@@ -92,9 +191,6 @@ footer {
 @media screen and (max-width: 992px){
     .navbar-nav {
         height: 100vh;
-    }
-
-    .navbar-nav {
         margin-top: 50px;
     }
 
@@ -104,7 +200,7 @@ footer {
         margin-left: 200px; 
         font-weight: 500;
         font-size: 25px;      
-}
+    }
 }
 
 /* xs (for phones - screens up to 768px wide) */
@@ -112,9 +208,6 @@ footer {
 @media screen and (max-width: 768px ) {
     .navbar-nav {
         height: 100vh;
-    }
-
-    .navbar-nav {
         margin-top: 50px;
     }
 
@@ -124,5 +217,9 @@ footer {
         margin-left: 70px; 
         font-weight: 500;
         font-size: 25px;      
-}
+    }
+
+    .container-about {
+        font-size: 10px;
+    }
 }

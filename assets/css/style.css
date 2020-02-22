@@ -12,7 +12,7 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-/* --------------------------------------------- Special padding/margins/text ---------------*/
+/* --------------------------------------------- Special padding/margins/text/block-divider ---------------*/
 
 h1,
 h2,
@@ -25,11 +25,27 @@ h4 {
     text-transform: uppercase;
 }
 
+.block-divider {
+    width: 250px;
+    height: 4px;
+    border: 0;
+    background-color: #fafafa;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
 /*---------------------------------------------- Header ----------------*/
 
 /* header {
     max-height: 80px
 } */
+
+.container-video {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 /* Navbar */
 
@@ -54,25 +70,12 @@ h4 {
     border-color: rgba(255,255,255,.3);
 }
 
-/*---------------------------------------------- Home page ----------------*/
+/*---------------------------------------------- Full page content background  ----------------*/
 
 .container-wrapper {
-    min-height: 100vh
+    min-height: 100vh;
+    color: #fafafa;
 }
-
-/* .bg-cover {
-    background: url(../images/galaxy-background.jpg) no-repeat bottom right fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    position: relative;
-} */
 
 .bg-cover {
     /* Location of the image */
@@ -103,11 +106,6 @@ h4 {
     position: relative;
 }
 
-.container-video {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 .container-wrapper .overlay {
     position: absolute;
     top: 0;
@@ -116,6 +114,44 @@ h4 {
     width: 100%;
     background-color: rgba(0,0,0,0.5);
 } 
+
+/*---------------------------------------------- Footer ----------------*/
+
+.footer {
+    /* min-height: 80px; */
+    background: #000000;
+    color: #fafafa;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.social-links li a i{
+    padding-right: 8px; 
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    color: #398339;;
+}
+
+.footer-details {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+/*---------------------------------------------- Home page ----------------*/
 
 .container-about {
     position: absolute;
@@ -177,40 +213,14 @@ Forces carousel image to be 100% width and not max width of 100%
     color: #000000;
 }
 
-/*---------------------------------------------- Footer ----------------*/
+/*---------------------------------------------- Music page ----------------*/
 
-.footer {
-    /* min-height: 80px; */
-    background: #000000;
+.header-content {
     color: #fafafa;
-    margin: 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
-.social-links {
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.social-links li a i{
-    padding-right: 8px; 
-    color: #fafafa;
-    transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover{
-    color: #398339;;
-}
-
-.footer-details {
-    font-size: 11px;
-    font-weight: 300;
+.album-image {
+    max-width: 20%;
 }
 
 /*---------------------------------------------- Media queries ----------------*/

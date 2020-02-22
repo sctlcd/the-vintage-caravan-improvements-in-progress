@@ -30,6 +30,9 @@
 	- [Acknowledgements](#Acknowledgements)
 	
 ---
+#The Vintage Caravan
+
+A responsive website using HTML, CSS and Bootstrap 4 while having the opportunity to spread the world about this rock band full of humour with a bright futur ('a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' )
 
 
 ## UX  <a name="UX"></a>

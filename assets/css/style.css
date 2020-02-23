@@ -223,6 +223,60 @@ Forces carousel image to be 100% width and not max width of 100%
     max-width: 20%;
 }
 
+/*---------------------------------------------- Shows ----------------*/
+
+.show-event {
+    font-family: "Space+Mono", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.show-event-big {
+    color: #767676;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.show-event-small {
+    color: #fafafa;
+    font-size: 10px;
+}
+
+.show-event {
+    padding: 40px 80px 40px 80px;
+    /* margin: 20px 20px 20px 20px; */
+}
+
+.table-dark {
+    
+    border-left-color: #000000;
+}
+
+.table-dark, .table-dark td, .table-dark th, .table-dark thead th {
+    border-color: #000000;
+    background-color: #000000;
+    padding: 20px 50px;
+}
+
+.page-title {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.header-container {
+    margin: 30px 20px 30px 20px; 
+}
+
+.shows-filters-actif {
+    color: #fafafa;
+}
+
+.shows-filters-actif:hover {
+    color: #398339;
+}
+
 /*---------------------------------------------- Media queries ----------------*/
 
 /* sm (for tablets - screens from 768px to 992px wide) */

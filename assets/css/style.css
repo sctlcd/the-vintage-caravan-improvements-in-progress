@@ -112,7 +112,7 @@ h4 {
     left: 0;
     height: 90%;
     width: 100%;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.5);
 } 
 
 /*---------------------------------------------- Footer ----------------*/
@@ -143,7 +143,7 @@ h4 {
 }
 
 .social-links li a i:hover{
-    color: #398339;;
+    color: #398339;
 }
 
 .footer-details {
@@ -262,19 +262,28 @@ Forces carousel image to be 100% width and not max width of 100%
     font-family: "Rubik", sans-serif;
     font-size: 40px;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .header-container {
     margin: 30px 20px 30px 20px; 
 }
 
-.shows-filters-actif {
+.header-container .upcoming-filter{
     color: #fafafa;
+    text-decoration: underline;
 }
 
-.shows-filters-actif:hover {
+.header-container .archive-filter{
+    color: #767676;
+}
+
+.header-container .upcoming-filter:hover {
     color: #398339;
+}
+
+.header-container .archive-filter:hover{
+    color: #767676;
 }
 
 /*---------------------------------------------- Media queries ----------------*/

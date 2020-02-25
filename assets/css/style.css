@@ -36,6 +36,7 @@ body {
     padding: 0;
     border: 0;
     font-family: 'Dekar Regular', sans-serif;
+    letter-spacing: 2px;
 }
 
 /* --------------------------------------------- Special padding/margins/text/block-divider ---------------*/
@@ -77,7 +78,6 @@ h4 {
 
 .nav-item {
     font-family: "Dekar Regular", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     padding-right: 20px;
 }
@@ -92,8 +92,23 @@ h4 {
 }
 
 .navbar-dark .navbar-toggler {
-    color: rgba(255,255,255,.5);
-    border-color: rgba(255,255,255,.3);
+    color: #495057;
+    border-color: #495057;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #495057;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #fafafa;
+    font-weight: bold;
 }
 
 /*---------------------------------------------- Full page content background  ----------------*/
@@ -136,7 +151,7 @@ h4 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 90%;
+    height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
 } 
@@ -249,54 +264,64 @@ Forces carousel image to be 100% width and not max width of 100%
 
 /*---------------------------------------------- Shows ----------------*/
 
-.show-event {
+.item-show {
     font-family: 'Dekar Regular', sans-serif;
     text-align: center;
 }
 
-.show-event-big {
-    color: #767676;
-    font-size: 18px;
-    letter-spacing: 2px;
+.item-show-grey {
+    color: #495057;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.show-event-small {
+.item-show-white {
     color: #fafafa;
-    font-size: 10px;
+    font-size: 12px;
 }
 
-.show-event {
-    padding: 40px 80px 40px 80px;
-    /* margin: 20px 20px 20px 20px; */
+.item-show td h3 a:hover{
+    color: rgba(255, 255, 255, 0.65);
+    text-decoration: none;
 }
 
-.table-dark {
-    
-    border-left-color: #000000;
+.table {
+    margin-bottom: 0;
 }
 
 .table-dark, .table-dark td, .table-dark th, .table-dark thead th {
     border-color: #000000;
     background-color: #000000;
-    padding: 20px 50px;
+}
+
+.item-show-table {
+    border: 1px solid #495057;
+    background: #000000;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
 .page-title {
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .header-container {
-    margin: 30px 20px 30px 20px; 
+    margin: 30px 0 15px 0; 
 }
 
 .header-container .upcoming-filter{
     color: #fafafa;
     text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .header-container .archive-filter{
-    color: #767676;
+    color: #495057;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .header-container .upcoming-filter:hover {
@@ -304,11 +329,44 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .header-container .archive-filter:hover{
-    color: #767676;
+    color: #495057;
 }
 
-.events-container {
+.body-shows-container {
     margin-bottom: 100px;    
+}
+
+.item-show td h3 {
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+
+.item-show td h4 {
+    margin: 0 10px 10px 10px;
+}
+
+.bandsintown-brand {
+    height: 25px;
+    width: 25px;
+}
+
+.btn-dark {
+    display: block;
+    width: 100%;
+    color: #fafafa;
+    background-color:  #23272b;
+    border-color:  #23272b;
+}
+
+.btn-dark:hover {
+    color: #fafafa;
+    background-color: #495057;
+    border-color:  #495057;
+}
+
+.shows-request-container {
+    margin-bottom: 70px;
 }
 
 /*---------------------------------------------- Media queries ----------------*/

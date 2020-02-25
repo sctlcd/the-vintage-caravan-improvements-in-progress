@@ -1,4 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i|Space+Mono:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Space+Mono:400,700&display=swap');
+
+/* Dekar Light Regular*/
+@font-face {
+    font-family: 'Dekar Light Regular';
+    /* For Internet Explorer */
+    src: url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/Dekar-Light.eot');
+    /* For Chrome, Firefox, Safari, Opera */
+    src: local('Dekar Light Regular'),
+	     local('Dekar-Light-Regular'),
+	     url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/dekar-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Dekar Regular */
+@font-face {
+    font-family: 'Dekar Regular';
+    /* For Internet Explorer */
+    src: url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/Dekar-Regular.eot') ;
+    /* For Chrome, Firefox, Safari, Opera */
+    src: local('Dekar Regular'),
+	     local('Dekar-Regular'),
+	     url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/dekar-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html {
     position: relative;
@@ -9,7 +35,8 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: "Rubik", sans-serif;
+    font-family: 'Dekar Regular', sans-serif;
+    letter-spacing: 2px;
 }
 
 /* --------------------------------------------- Special padding/margins/text/block-divider ---------------*/
@@ -50,8 +77,7 @@ h4 {
 /* Navbar */
 
 .nav-item {
-    font-family: "Rubik", sans-serif;
-    font-weight: 400;
+    font-family: "Dekar Regular", sans-serif;
     font-size: 18px;
     padding-right: 20px;
 }
@@ -66,8 +92,23 @@ h4 {
 }
 
 .navbar-dark .navbar-toggler {
-    color: rgba(255,255,255,.5);
-    border-color: rgba(255,255,255,.3);
+    color: #495057;
+    border-color: #495057;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #495057;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.65);
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #fafafa;
+    font-weight: bold;
 }
 
 /*---------------------------------------------- Full page content background  ----------------*/
@@ -110,7 +151,7 @@ h4 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 90%;
+    height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
 } 
@@ -143,7 +184,7 @@ h4 {
 }
 
 .social-links li a i:hover{
-    color: #398339;;
+    color: #398339;
 }
 
 .footer-details {
@@ -158,8 +199,6 @@ h4 {
     top: 0;
     margin: 0;
     color: #fafafa;
-    font-weight: 400;
-    font-family: "Rubik",sans-serif;
 }
 
 .about-description {
@@ -221,6 +260,113 @@ Forces carousel image to be 100% width and not max width of 100%
 
 .album-image {
     max-width: 20%;
+}
+
+/*---------------------------------------------- Shows ----------------*/
+
+.item-show {
+    font-family: 'Dekar Regular', sans-serif;
+    text-align: center;
+}
+
+.item-show-grey {
+    color: #495057;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.item-show-white {
+    color: #fafafa;
+    font-size: 12px;
+}
+
+.item-show td h3 a:hover{
+    color: rgba(255, 255, 255, 0.65);
+    text-decoration: none;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table-dark, .table-dark td, .table-dark th, .table-dark thead th {
+    border-color: #000000;
+    background-color: #000000;
+}
+
+.item-show-table {
+    border: 1px solid #495057;
+    background: #000000;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.page-title {
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.header-container {
+    margin: 30px 0 15px 0; 
+}
+
+.header-container .upcoming-filter{
+    color: #fafafa;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-container .archive-filter{
+    color: #495057;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-container .upcoming-filter:hover {
+    color: #398339;
+}
+
+.header-container .archive-filter:hover{
+    color: #495057;
+}
+
+.body-shows-container {
+    margin-bottom: 100px;    
+}
+
+.item-show td h3 {
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+
+.item-show td h4 {
+    margin: 0 10px 10px 10px;
+}
+
+.bandsintown-brand {
+    height: 25px;
+    width: 25px;
+}
+
+.btn-dark {
+    display: block;
+    width: 100%;
+    color: #fafafa;
+    background-color:  #23272b;
+    border-color:  #23272b;
+}
+
+.btn-dark:hover {
+    color: #fafafa;
+    background-color: #495057;
+    border-color:  #495057;
+}
+
+.shows-request-container {
+    margin-bottom: 70px;
 }
 
 /*---------------------------------------------- Media queries ----------------*/

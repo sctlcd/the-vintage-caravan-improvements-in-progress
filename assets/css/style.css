@@ -381,7 +381,7 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .photos-container {
-    margin: 30px 10px 120px 10px;
+    margin: 0px 10px 120px 10px;
 }
 
 /*---------------------------------------------- Media queries ----------------*/

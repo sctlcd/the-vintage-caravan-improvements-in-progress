@@ -262,7 +262,7 @@ Forces carousel image to be 100% width and not max width of 100%
     max-width: 20%;
 }
 
-/*---------------------------------------------- Shows ----------------*/
+/*---------------------------------------------- Shows page ----------------*/
 
 .item-show {
     font-family: 'Dekar Regular', sans-serif;
@@ -367,6 +367,13 @@ Forces carousel image to be 100% width and not max width of 100%
 
 .shows-request-container {
     margin-bottom: 70px;
+}
+
+/*---------------------------------------------- Photos page ----------------*/
+
+.img-thumbnail {
+        border: 1px solid #000000;
+            background-color: #000000;
 }
 
 /*---------------------------------------------- Media queries ----------------*/

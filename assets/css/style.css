@@ -262,6 +262,28 @@ Forces carousel image to be 100% width and not max width of 100%
     max-width: 20%;
 }
 
+.music-container {
+    margin: 0px 10px 150px 10px;
+}
+
+.buy-album {
+    height: 60px;
+    width: 180px;
+    display: block;
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    height: 300px;
+    width: 300px;
+    color: #495057;
+    text-align: center;
+}
+
+.music-album-container .img-thumbnail {
+     border: 1px solid transparent;
+    background-color: transparent;
+}
 /*---------------------------------------------- Shows page ----------------*/
 
 .item-show {

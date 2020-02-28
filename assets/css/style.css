@@ -206,32 +206,35 @@ h6 {
 
 /* About */
 
-.container-about {
+/* .container-about {
     position: absolute;
     top: 0;
     margin: 0;
     color: #fafafa;
+} */
+
+.about-container {
+  margin: 80px 0px 0 0px;
+  padding: 0 50px 0 50px;
 }
 
-.about-description {
-    margin-top: 30px;
+.discography-container {
+    margin: 70px 0px 170px 0px;
 }
 
 .about-title {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .about-text {
-    margin-top: 0px;
-    margin-bottom: 20pxpx;
-    font-size: 16px;
 }
 
 /* Carousel */
 
 #carouselDiscography {
-    max-width: 20%;
+    /* max-width: 40%; */
     /* width: 100%;*/
+    margin-top: 40px;
 }
 
 .carousel-inner {

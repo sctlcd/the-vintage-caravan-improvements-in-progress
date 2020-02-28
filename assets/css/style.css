@@ -214,27 +214,35 @@ h6 {
 } */
 
 .about-container {
-  margin: 80px 0px 0 0px;
-  padding: 0 50px 0 50px;
+  /* margin: 80px 0px 0 0px;
+  padding: 0 50px 0 50px; */
+  margin: 0 auto;
 }
+
+.about-title {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+/* Discography */
 
 .discography-container {
     margin: 70px 0px 170px 0px;
 }
 
-.about-title {
+.discography-title {
     margin-bottom: 40px;
+
 }
 
-.about-text {
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #767676;
 }
-
-/* Carousel */
 
 #carouselDiscography {
-    /* max-width: 40%; */
-    /* width: 100%;*/
-    margin-top: 40px;
+    max-width: 30%;
+    /* center the carousel */
+    margin: 0 auto;
 }
 
 .carousel-inner {

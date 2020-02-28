@@ -56,7 +56,7 @@ h4 {
     width: 250px;
     height: 4px;
     border: 0;
-    background-color: #fafafa;
+    background-color: rgba(255, 255, 255, 0.65);
 }
 
 .block-divider--short {
@@ -195,9 +195,7 @@ h4 {
 /*---------------------------------------------- Home page ----------------*/
 
 .header-container .page-title {
-    font-size: 50px;
-    /* margin-top: 80px; */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .header-container {
@@ -301,7 +299,7 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .buy-container .card-title, .listen-container .card-title {
-    font-size: 24px;
+    /* font-size: 24px; */
     font-weight: bold;
 }
 
@@ -321,6 +319,10 @@ Forces carousel image to be 100% width and not max width of 100%
     color: #fafafa;
     text-align: center;
     width: 24rem;
+}
+
+.album-title {
+    font-weight: bold;
 }
 
 .album-container img {

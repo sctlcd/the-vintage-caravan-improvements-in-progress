@@ -473,6 +473,28 @@ Forces carousel image to be 100% width and not max width of 100%
     margin: 70px 10px 120px 10px;
 }
 
+/*---------------------------------------------- Contact page ----------------*/
+
+.contact-container i {
+    color: rgba(255, 255, 255, 0.65);
+    margin-right: 10px;
+}
+
+.contacts-container {
+ margin-top: 30px;
+ margin-bottom: 300px;
+}
+
+.contact-container {
+ margin: 50px 0 50px 0;
+}
+
+.contact-container h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
+
 /*---------------------------------------------- Media queries ----------------*/
 
 /* sm (for tablets - screens from 768px to 992px wide) */

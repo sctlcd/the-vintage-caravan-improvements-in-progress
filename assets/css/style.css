@@ -279,6 +279,11 @@ Forces carousel image to be 100% width and not max width of 100%
     width: 180px;
 }
 
+.buy-album-img-amazonmp3 {
+    height: 62px;
+    width: 173px;
+}
+
 .listen-album-img-spotify {
     height: 65px;
     width: 176px;
@@ -287,6 +292,11 @@ Forces carousel image to be 100% width and not max width of 100%
 .listen-album-img-deezer {
     height: 50px;
     width: 157px;
+}
+
+.listen-album-img-applemusic {
+    height: 54px;
+    width: 162px;
 }
 
 .support-container {

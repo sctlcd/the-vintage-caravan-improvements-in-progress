@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Space+Mono:400,700&display=swap');
 
-/* Dekar Light Regular*/
+/* Dekar Light Regular font*/
 @font-face {
     font-family: 'Dekar Light Regular';
     /* For Internet Explorer */
@@ -13,7 +13,7 @@
     font-style: normal;
 }
 
-/* Dekar Regular */
+/* Dekar Regular font*/
 @font-face {
     font-family: 'Dekar Regular';
     /* For Internet Explorer */
@@ -44,7 +44,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -63,7 +65,7 @@ h4 {
     width: 35px;
 }
 
-/*---------------------------------------------- upcoming----------------*/
+/*---------------------------------------------- Header - Navbar ----------------*/
 
 /* header {
     max-height: 80px
@@ -202,6 +204,8 @@ h4 {
     margin: 100px 0 0 0; 
 }
 
+/* About */
+
 .container-about {
     position: absolute;
     top: 0;
@@ -299,7 +303,6 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .buy-container .card-title, .listen-container .card-title {
-    /* font-size: 24px; */
     font-weight: bold;
 }
 

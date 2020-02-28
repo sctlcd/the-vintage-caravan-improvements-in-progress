@@ -63,7 +63,7 @@ h4 {
     width: 35px;
 }
 
-/*---------------------------------------------- Header ----------------*/
+/*---------------------------------------------- upcoming----------------*/
 
 /* header {
     max-height: 80px
@@ -162,7 +162,7 @@ h4 {
     /* min-height: 80px; */
     background: #000000;
     color: #fafafa;
-    margin: 0;
+    margin-top: 0;
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -201,7 +201,7 @@ h4 {
 }
 
 .header-container {
-    margin: 100px 0 100px 0; 
+    margin: 100px 0 0 0; 
 }
 
 .container-about {
@@ -269,7 +269,7 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .music-container {
-    margin: 0px 10px 150px 10px;
+    margin: 0;
 }
 
 .buy-album-img {
@@ -289,7 +289,8 @@ Forces carousel image to be 100% width and not max width of 100%
 
 .support-container {
     align-self: center;
-    /* justify-items: center; */
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .buy-container .card, .listen-container .card {
@@ -299,14 +300,22 @@ Forces carousel image to be 100% width and not max width of 100%
     width: 22rem;
 }
 
+.buy-container .card-title, .listen-container .card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buy-container .card-text, .listen-container .card-text {
+    font-weight: bold;
+}
+
 .album-container {
     align-self: center;
-    /* justify-items: center; */
+    padding-right: 80px;
+    padding-left: 80px;
 }
 
 .album-container .card {
-    /*justify-items: center;
-    text-align: center; */
     border: 1px solid transparent;
     background-color: transparent;
     color: #fafafa;
@@ -315,26 +324,21 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .album-container img {
-    /* vertical-align: middle;
-    border-style: none; */
     border-radius: .25rem;
 }
 
+.music-album-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
 
+.extra-margin {
+    margin-bottom: 180px;
+}
 
-/* .buy-container {
-    /* display: flex; */
-    /* align-items: center; */
-    /* align-content: center;
-    justify-content: center; */
-
-
-    /* align-self: center; */
-    /*justify-items: center; */
-    /* text-align: center;
-    padding-bottom: 30px;
-    
-}*/
+.buy-container {
+    margin-bottom: 40px;
+}
 
 /*---------------------------------------------- Shows page ----------------*/
 
@@ -375,25 +379,31 @@ Forces carousel image to be 100% width and not max width of 100%
     padding: 10px;
 }
 
-.header-container .upcoming-filter{
+.shows-filter {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.shows-filter .upcoming{
     color: #fafafa;
     text-decoration: underline;
-    font-weight: bold;
-    font-size: 14px;
 }
 
-.header-container .archive-filter{
+.shows-filter .archive{
     color: #495057;
-    font-weight: bold;
-    font-size: 14px;
 }
 
-.header-container .upcoming-filter:hover {
+.shows-filter .upcoming:hover {
     color: #398339;
 }
 
-.header-container .archive-filter:hover{
+.shows-filter .archive:hover{
     color: #495057;
+}
+
+.shows-request-container {
+    margin-top: 10px;
 }
 
 .body-shows-container {
@@ -445,7 +455,7 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .photos-container {
-    margin: 0px 10px 120px 10px;
+    margin: 70px 10px 120px 10px;
 }
 
 /*---------------------------------------------- Media queries ----------------*/

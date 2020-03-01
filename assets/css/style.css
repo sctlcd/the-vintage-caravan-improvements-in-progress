@@ -71,7 +71,7 @@ h6 {
     max-height: 80px
 } */
 
-.container-video {
+.video-container {
     padding-left: 0;
     padding-right: 0;
 }
@@ -169,11 +169,16 @@ h6 {
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .social-links {
     margin-top: 20px;
     margin-bottom: 5px;
+}
+
+.social-links ul {
+    margin-bottom: 0.5rem;
 }
 
 .social-links li a i{
@@ -194,10 +199,19 @@ h6 {
     font-weight: 300;
 }
 
+.footer-details p {
+    margin: 0 auto;
+}
+    
+
 /*---------------------------------------------- Home page ----------------*/
 
 .header-container .page-title {
     margin-bottom: 10px;
+}
+
+.header-container .page-sub-title {
+    margin-bottom: 120px;
 }
 
 .header-container {
@@ -212,7 +226,7 @@ h6 {
 
 .about-title {
     margin-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 /* Discography */
@@ -230,7 +244,7 @@ h6 {
 }
 
 #carouselDiscography {
-    max-width: 30%;
+    max-width: 50%;
 
     /* center the carousel */
     margin: 0 auto;
@@ -307,28 +321,29 @@ Forces carousel image to be 100% width and not max width of 100%
     padding-right: 80px;
 }
 
-.buy-container .card, .listen-container .card {
+.buy-container .buy-card, .listen-container .listen-card {
     background-color: rgba(255, 255, 255, 0.65);
     color: #495057;
     text-align: center;
     width: 22rem;
 }
 
-.buy-container .card-title, .listen-container .card-title {
+.buy-container .buy-title, .listen-container .listen-title {
     font-weight: bold;
 }
 
-.buy-container .card-text, .listen-container .card-text {
+.buy-container .buy-text, .listen-container .listen-text {
     font-weight: bold;
 }
 
 .album-container {
-    align-self: center;
+    /* align-self: center; */
     padding-right: 80px;
     padding-left: 80px;
 }
 
-.album-container .card {
+.album-container .album-card {
+    align-self: center;
     border: 1px solid transparent;
     background-color: transparent;
     color: #fafafa;
@@ -344,9 +359,8 @@ Forces carousel image to be 100% width and not max width of 100%
     border-radius: .25rem;
 }
 
-.music-album-container {
-    margin-top: 120px;
-    margin-bottom: 120px;
+.divider-container {
+    margin: 120px 0 120px 0;
 }
 
 .extra-margin {
@@ -472,7 +486,7 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .photos-container {
-    margin: 70px 10px 120px 10px;
+    margin: 0px 10px 150px 10px;
 }
 
 /*---------------------------------------------- Contact page ----------------*/
@@ -540,9 +554,19 @@ label, input, textarea, .custom-file input, .custom-file label, button {
         font-size: 25px;      
     }
 
+    /* Home page */
+    .container-about {
+        font-size: 10px;
+    }
+
+    #carouselDiscography {
+    max-width: 60%;
+    }
+
+    /* Contact Page */
     .contact-page-container .col-12 {
         flex: 0 0 100%;
-        max-width: 80%;
+        max-width: 100%;
     }
 }
 
@@ -567,6 +591,10 @@ label, input, textarea, .custom-file input, .custom-file label, button {
     /* Home page */
     .container-about {
         font-size: 10px;
+    }
+
+    #carouselDiscography {
+    max-width: 80%;
     }
 
     /* Contact Page */

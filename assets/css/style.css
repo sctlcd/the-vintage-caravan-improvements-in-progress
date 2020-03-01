@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Space+Mono:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap');
 
 /* Dekar Light Regular font*/
 @font-face {
@@ -229,6 +229,10 @@ h6 {
     margin-top: 110px;
 }
 
+.about-text {
+    font-size: 18px;
+}
+
 /* Discography */
 
 .discography-container {
@@ -263,18 +267,6 @@ h6 {
     opacity: .5;
     transition: opacity .15s ease;
 }
-
-/* .carousel-control-prev, .carousel-control-next, .carousel-item.active {
-    display: block !important;
-} */
-
-/*
-Forces carousel image to be 100% width and not max width of 100%
-*/
-/* .carousel-item .img-fluid {
-  width:100%;
-  height:100%;
-} */
 
 .carousel-inner .carousel-control-next .carousel-control-next-icon {
     color: #000000;
@@ -333,11 +325,11 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .buy-container .buy-text, .listen-container .listen-text {
-    font-weight: bold;
+    font-family: 'Space+Mono', sans-serif;
+    font-weight: 400;
 }
 
 .album-container {
-    /* align-self: center; */
     padding-right: 80px;
     padding-left: 80px;
 }
@@ -373,20 +365,17 @@ Forces carousel image to be 100% width and not max width of 100%
 
 /*---------------------------------------------- Shows page ----------------*/
 
-.item-show {
-    font-family: 'Dekar Regular', sans-serif;
-    text-align: center;
-}
-
 .item-show-grey {
+    font-family: 'Dekar Regular', sans-serif;
     color: #495057;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .item-show-white {
+    font-family: 'Space+Mono', sans-serif;
     color: #fafafa;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .item-show td h3 a:hover{
@@ -401,6 +390,7 @@ Forces carousel image to be 100% width and not max width of 100%
 .table-dark, .table-dark td, .table-dark th, .table-dark thead th {
     border-color: #000000;
     background-color: #000000;
+    color: #fafafa;
 }
 
 .item-show {
@@ -413,7 +403,9 @@ Forces carousel image to be 100% width and not max width of 100%
 .show-filters {
     font-weight: bold;
     font-size: 14px;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Space+Mono', sans-serif;
 }
 
 .show-filters .upcoming-link{
@@ -433,28 +425,23 @@ Forces carousel image to be 100% width and not max width of 100%
     color: #495057;
 }
 
-.shows-request-container {
-    margin-top: 10px;
+.shows-container {
+    margin: 0 auto;
 }
 
-.shows-container {
-    /* margin-bottom: 100px;     */
-    margin: 0 auto;
+.item-show td {
+    width: 50%;
 }
 
 .item-show td h3 {
     display: block;
     width: 100%;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .item-show td h4 {
     margin: 0 10px 10px 10px;
-}
-
-.bandsintown-brand {
-    height: 25px;
-    width: 25px;
 }
 
 .concert-request-button .btn-dark {
@@ -463,7 +450,7 @@ Forces carousel image to be 100% width and not max width of 100%
     color: #fafafa;
     background-color:  #14171b;
     border-color:  #14171b;
-    margin-bottom: 100px;
+    margin-bottom: 170px;
 }
 
 .concert-request-button .btn-dark:hover {
@@ -474,6 +461,9 @@ Forces carousel image to be 100% width and not max width of 100%
 
 .shows-request-container {
     margin-bottom: 70px;
+    width: 100%;
+    margin: 0 auto;
+
 }
 
 /*---------------------------------------------- Photos page ----------------*/
@@ -499,12 +489,19 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .contact-form-container {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 180px;
 }
 
-.contact-form-header .form-title, .contact-form-header .form-text {
-    margin-bottom: 40px;
+.contact-form-header {
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.contact-form-body {
+    letter-spacing: 2px;
+    font-family: 'Space+Mono', sans-serif;
+    font-size: 14px;
 }
 
 .custom-file {
@@ -518,7 +515,8 @@ Forces carousel image to be 100% width and not max width of 100%
 .form-group .btn-dark {
     color: #fafafa;
     background-color:  #14171b;
-    border-color:  #14171b;;
+    border-color:  #14171b;
+    margin-top: 16px;
 }
 
 .form-group .btn-dark:hover {
@@ -527,12 +525,11 @@ Forces carousel image to be 100% width and not max width of 100%
     border-color:  #495057;
 }
 
-label, input, textarea, .custom-file input, .custom-file label, button {
-    letter-spacing: inherit;
-}
-
 .form-control, .custom-file-input, .custom-file-label {
     background-color: #fafafa;
+    letter-spacing: 2px;
+    font-family: 'Space+Mono', sans-serif;
+    font-size: 14px;
 }
 
 
@@ -577,6 +574,7 @@ label, input, textarea, .custom-file input, .custom-file label, button {
 @media screen and (max-width: 768px ) {
 
     /* Navbar */
+
     .navbar-nav {
         height: 100vh;
         margin-top: 50px;
@@ -591,6 +589,7 @@ label, input, textarea, .custom-file input, .custom-file label, button {
     }
 
     /* Home page */
+
     .container-about {
         font-size: 10px;
     }
@@ -600,6 +599,7 @@ label, input, textarea, .custom-file input, .custom-file label, button {
     }
 
     /* Contact Page */
+
     .contact-page-container .col-12 {
         flex: 0 0 100%;
         max-width: 100%;
@@ -608,6 +608,16 @@ label, input, textarea, .custom-file input, .custom-file label, button {
     /* Shows page */
 
     /* Responsive display of the table row into multiple line */ 
-    .test tr {    display: table;  width:100%;    }               
-    .test td {    display: table-row; }           
+    .item-show-table tr {    display: table;  width:100%;    }               
+    .item-show-table td {    display: table-row; }           
+
+    .item-show {
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .show-filters {
+        margin-bottom: 10px;
+    }
 }

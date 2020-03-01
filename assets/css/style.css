@@ -403,33 +403,33 @@ Forces carousel image to be 100% width and not max width of 100%
     background-color: #000000;
 }
 
-.item-show-table {
+.item-show {
     border: 1px solid #495057;
     background: #000000;
     margin-bottom: 30px;
     padding: 10px;
 }
 
-.shows-filter {
+.show-filters {
     font-weight: bold;
     font-size: 14px;
     margin-top: 50px;
 }
 
-.shows-filter .upcoming{
+.show-filters .upcoming-link{
     color: #fafafa;
     text-decoration: underline;
 }
 
-.shows-filter .archive{
+.show-filters .archive-link{
     color: #495057;
 }
 
-.shows-filter .upcoming:hover {
+.show-filters .upcoming-link:hover {
     color: #398339;
 }
 
-.shows-filter .archive:hover{
+.show-filters .archive-link:hover{
     color: #495057;
 }
 
@@ -437,8 +437,9 @@ Forces carousel image to be 100% width and not max width of 100%
     margin-top: 10px;
 }
 
-.body-shows-container {
-    margin-bottom: 100px;    
+.shows-container {
+    /* margin-bottom: 100px;     */
+    margin: 0 auto;
 }
 
 .item-show td h3 {
@@ -462,6 +463,7 @@ Forces carousel image to be 100% width and not max width of 100%
     color: #fafafa;
     background-color:  #14171b;
     border-color:  #14171b;
+    margin-bottom: 100px;
 }
 
 .concert-request-button .btn-dark:hover {
@@ -602,4 +604,10 @@ label, input, textarea, .custom-file input, .custom-file label, button {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    /* Shows page */
+
+    /* Responsive display of the table row into multiple line */ 
+    .test tr {    display: table;  width:100%;    }               
+    .test td {    display: table-row; }           
 }

@@ -223,7 +223,6 @@ h6 {
 
 .discography-title {
     margin-bottom: 50px;
-
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -232,6 +231,7 @@ h6 {
 
 #carouselDiscography {
     max-width: 30%;
+
     /* center the carousel */
     margin: 0 auto;
 }
@@ -442,15 +442,15 @@ Forces carousel image to be 100% width and not max width of 100%
     width: 25px;
 }
 
-.btn-dark {
+.concert-request-button .btn-dark {
     display: block;
     width: 100%;
     color: #fafafa;
-    background-color:  #23272b;
-    border-color:  #23272b;
+    background-color:  #14171b;
+    border-color:  #14171b;
 }
 
-.btn-dark:hover {
+.concert-request-button .btn-dark:hover {
     color: #fafafa;
     background-color: #495057;
     border-color:  #495057;
@@ -477,31 +477,56 @@ Forces carousel image to be 100% width and not max width of 100%
 
 /*---------------------------------------------- Contact page ----------------*/
 
-.contact-container i {
-    color: rgba(255, 255, 255, 0.65);
-    margin-right: 10px;
+.contact-page-container .col-12{
+    flex: 0 0 100%;
+    max-width: 60%;
 }
 
-.contacts-container {
- margin-top: 30px;
- margin-bottom: 300px;
+.contact-form-container {
+    margin-top: 80px;
+    margin-bottom: 180px;
 }
 
-.contact-container {
- margin: 50px 0 50px 0;
+.contact-form-header .form-title, .contact-form-header .form-text {
+    margin-bottom: 40px;
 }
 
-.contact-container h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    font-size: 16px;
+.custom-file {
+    margin-bottom: 1rem;
 }
+
+.form-group p {
+    margin-bottom: 8px;
+}
+
+.form-group .btn-dark {
+    color: #fafafa;
+    background-color:  #14171b;
+    border-color:  #14171b;;
+}
+
+.form-group .btn-dark:hover {
+    color: #fafafa;
+    background-color: #495057;
+    border-color:  #495057;
+}
+
+label, input, textarea, .custom-file input, .custom-file label, button {
+    letter-spacing: inherit;
+}
+
+.form-control, .custom-file-input, .custom-file-label {
+    background-color: #fafafa;
+}
+
 
 /*---------------------------------------------- Media queries ----------------*/
 
 /* sm (for tablets - screens from 768px to 992px wide) */
 
 @media screen and (max-width: 992px){
+    
+    /* Navbar */
     .navbar-nav {
         height: 100vh;
         margin-top: 50px;
@@ -514,11 +539,18 @@ Forces carousel image to be 100% width and not max width of 100%
         font-weight: 500;
         font-size: 25px;      
     }
+
+    .contact-page-container .col-12 {
+        flex: 0 0 100%;
+        max-width: 80%;
+    }
 }
 
 /* xs (for phones - screens up to 768px wide) */
 
 @media screen and (max-width: 768px ) {
+
+    /* Navbar */
     .navbar-nav {
         height: 100vh;
         margin-top: 50px;
@@ -532,7 +564,14 @@ Forces carousel image to be 100% width and not max width of 100%
         font-size: 25px;      
     }
 
+    /* Home page */
     .container-about {
         font-size: 10px;
+    }
+
+    /* Contact Page */
+    .contact-page-container .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }

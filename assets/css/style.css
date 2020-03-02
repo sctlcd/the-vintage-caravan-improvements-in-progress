@@ -1,17 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Space+Mono:400,700&display=swap');
-
-/* Dekar Light Regular font*/
-@font-face {
-    font-family: 'Dekar Light Regular';
-    /* For Internet Explorer */
-    src: url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/Dekar-Light.eot');
-    /* For Chrome, Firefox, Safari, Opera */
-    src: local('Dekar Light Regular'),
-	     local('Dekar-Light-Regular'),
-	     url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/dekar-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
 /* Dekar Regular font*/
 @font-face {
@@ -61,15 +48,7 @@ h6 {
     background-color: rgba(255, 255, 255, 0.65);
 }
 
-.block-divider--short {
-    width: 35px;
-}
-
 /*---------------------------------------------- Header - Navbar ----------------*/
-
-/* header {
-    max-height: 80px
-} */
 
 .video-container {
     padding-left: 0;
@@ -229,6 +208,10 @@ h6 {
     margin-top: 110px;
 }
 
+.about-text {
+    font-size: 18px;
+}
+
 /* Discography */
 
 .discography-container {
@@ -263,18 +246,6 @@ h6 {
     opacity: .5;
     transition: opacity .15s ease;
 }
-
-/* .carousel-control-prev, .carousel-control-next, .carousel-item.active {
-    display: block !important;
-} */
-
-/*
-Forces carousel image to be 100% width and not max width of 100%
-*/
-/* .carousel-item .img-fluid {
-  width:100%;
-  height:100%;
-} */
 
 .carousel-inner .carousel-control-next .carousel-control-next-icon {
     color: #000000;
@@ -325,7 +296,8 @@ Forces carousel image to be 100% width and not max width of 100%
     background-color: rgba(255, 255, 255, 0.65);
     color: #495057;
     text-align: center;
-    width: 22rem;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .buy-container .buy-title, .listen-container .listen-title {
@@ -333,11 +305,11 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .buy-container .buy-text, .listen-container .listen-text {
-    font-weight: bold;
+    font-family: 'Space+Mono', sans-serif;
+    font-weight: 400;
 }
 
 .album-container {
-    /* align-self: center; */
     padding-right: 80px;
     padding-left: 80px;
 }
@@ -368,25 +340,22 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .buy-container {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 /*---------------------------------------------- Shows page ----------------*/
 
-.item-show {
-    font-family: 'Dekar Regular', sans-serif;
-    text-align: center;
-}
-
 .item-show-grey {
+    font-family: 'Dekar Regular', sans-serif;
     color: #495057;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .item-show-white {
+    font-family: 'Space+Mono', sans-serif;
     color: #fafafa;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .item-show td h3 a:hover{
@@ -401,59 +370,62 @@ Forces carousel image to be 100% width and not max width of 100%
 .table-dark, .table-dark td, .table-dark th, .table-dark thead th {
     border-color: #000000;
     background-color: #000000;
+    color: #fafafa;
 }
 
-.item-show-table {
+.item-show {
     border: 1px solid #495057;
     background: #000000;
     margin-bottom: 30px;
     padding: 10px;
 }
 
-.shows-filter {
-    font-weight: bold;
-    font-size: 14px;
-    margin-top: 50px;
+.item-show-table tr {
+    margin: 10px 0 10px 0;
 }
 
-.shows-filter .upcoming{
+.show-filters {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Space+Mono', sans-serif;
+}
+
+.show-filters .upcoming-link{
     color: #fafafa;
     text-decoration: underline;
 }
 
-.shows-filter .archive{
+.show-filters .archive-link{
     color: #495057;
 }
 
-.shows-filter .upcoming:hover {
+.show-filters .upcoming-link:hover {
     color: #398339;
 }
 
-.shows-filter .archive:hover{
+.show-filters .archive-link:hover{
     color: #495057;
 }
 
-.shows-request-container {
-    margin-top: 10px;
+.shows-container {
+    margin: 0 auto;
 }
 
-.body-shows-container {
-    margin-bottom: 100px;    
+.item-show td {
+    width: 50%;
 }
 
 .item-show td h3 {
     display: block;
     width: 100%;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .item-show td h4 {
     margin: 0 10px 10px 10px;
-}
-
-.bandsintown-brand {
-    height: 25px;
-    width: 25px;
 }
 
 .concert-request-button .btn-dark {
@@ -462,6 +434,7 @@ Forces carousel image to be 100% width and not max width of 100%
     color: #fafafa;
     background-color:  #14171b;
     border-color:  #14171b;
+    margin-bottom: 170px;
 }
 
 .concert-request-button .btn-dark:hover {
@@ -472,6 +445,13 @@ Forces carousel image to be 100% width and not max width of 100%
 
 .shows-request-container {
     margin-bottom: 70px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.shows-page-container {
+    max-width: 50%;
 }
 
 /*---------------------------------------------- Photos page ----------------*/
@@ -497,12 +477,19 @@ Forces carousel image to be 100% width and not max width of 100%
 }
 
 .contact-form-container {
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 180px;
 }
 
-.contact-form-header .form-title, .contact-form-header .form-text {
-    margin-bottom: 40px;
+.contact-form-header {
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.contact-form-body {
+    letter-spacing: 2px;
+    font-family: 'Space+Mono', sans-serif;
+    font-size: 14px;
 }
 
 .custom-file {
@@ -516,7 +503,8 @@ Forces carousel image to be 100% width and not max width of 100%
 .form-group .btn-dark {
     color: #fafafa;
     background-color:  #14171b;
-    border-color:  #14171b;;
+    border-color:  #14171b;
+    margin-top: 16px;
 }
 
 .form-group .btn-dark:hover {
@@ -525,14 +513,27 @@ Forces carousel image to be 100% width and not max width of 100%
     border-color:  #495057;
 }
 
-label, input, textarea, .custom-file input, .custom-file label, button {
-    letter-spacing: inherit;
+.form-control, .custom-file-input, .custom-file-label {
+    background-color: rgba(255, 255, 255, 0.65);
+    letter-spacing: 2px;
+    font-family: 'Space+Mono', sans-serif;
+    font-size: 14px;
+}
+
+.form-control:focus, .custom-file-input:focus {
+    background-color: rgba(180, 180, 180, 0.9);
+    border-color: #398339;
+    box-shadow: 0 0 0 0.2rem rgba(57, 131, 57, 0.7);
 }
 
 .form-control, .custom-file-input, .custom-file-label {
-    background-color: #fafafa;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
+.custom-file-input:focus~.custom-file-label {
+    border-color:  #398339;
+    box-shadow: 0 0 0 0.2rem rgba(57, 131, 57, 0.7);
+}
 
 /*---------------------------------------------- Media queries ----------------*/
 
@@ -555,8 +556,12 @@ label, input, textarea, .custom-file input, .custom-file label, button {
     }
 
     /* Home page */
-    .container-about {
-        font-size: 10px;
+    .about-container .about-text {
+        font-size: 14px;
+    }
+
+    .show-filters .upcoming-link {
+        font-size: 12px;
     }
 
     #carouselDiscography {
@@ -568,6 +573,10 @@ label, input, textarea, .custom-file input, .custom-file label, button {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    .shows-page-container {
+        max-width: 100%;
+    }
 }
 
 /* xs (for phones - screens up to 768px wide) */
@@ -575,6 +584,7 @@ label, input, textarea, .custom-file input, .custom-file label, button {
 @media screen and (max-width: 768px ) {
 
     /* Navbar */
+
     .navbar-nav {
         height: 100vh;
         margin-top: 50px;
@@ -589,17 +599,70 @@ label, input, textarea, .custom-file input, .custom-file label, button {
     }
 
     /* Home page */
-    .container-about {
-        font-size: 10px;
+
+    .about-container .about-text {
+        font-size: 14px;
     }
 
     #carouselDiscography {
-    max-width: 80%;
+        max-width: 80%;
     }
 
     /* Contact Page */
+
     .contact-page-container .col-12 {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+
+    .contact-form-header {
+        font-size: 16px;
+    }
+
+    .contact-form-body {
+        font-size: 12px;
+    }
+
+    /* Shows page */
+
+    /* Responsive display of the table row into multiple line */ 
+    .item-show-table tr {    
+        display: table;  
+        width:100%;    
+    }
+
+    /* Responsive display of the table row into multiple line */
+    .item-show-table td {    
+        display: table-row; 
+    }           
+
+    .show-filters {
+        font-size: 12px;
+    }
+
+    .shows-page-container {
+        max-width: 100%;
+    }
+    
+    /* Music Page */
+
+    .music-album-container {
+        max-width: 80%;
+    }
+
+    .album-card {
+        margin-bottom: 40px;
+    }
+
+    .buy-container {
+    margin-bottom: 50px;
+    }
+
+    .block-divider {
+        width: 45px;
+    }
+
+    .divider-container {
+        margin: 80px 0 80px 0;
     }
 }

@@ -55,25 +55,38 @@
 		<div class="container-wrapper container-fluid bg-cover">
 			<div class="overlay">&nbsp;</div>
 
-			<div class="row">
-				<div class="col-12">
+			<!-- <div class="row">
+				<div class="col-12"> -->
+                <div class="container photos-page-container">
 					<!-- Header-container -->
+                    <section class="container header-container">
 					<div class="row">
-						<div class="col-12 text-center header-container">
+						<div class="col-12 text-center">
 							<h1 class="uppercase page-title">Photos</h1>
-							<h2 class="page-sub-title">Watch | Share</h2>
 						</div>
 					</div>
+                    </section>
 
 					<!-- <div class="row photos-container">
 						<div class="col"> -->
 					<!-- Main -->
 					<main class="group" role="main">
-						<!-- Photos container -->
+						<!-- Photos-container -->
 						<div class="photos-container">
 							<div class="row">
 								<div class="col-sm-12 col-md-6 col-lg-4 photo-gallery-row">
-									<img src="assets/images/gallery/TVC_1.jpg" alt="The Vintage Caravan 1" class ="img-thumbnail">
+									
+                                    <a data-target="#modalIMG" data-toggle="modal" href="#" class="td-hover-none">
+                                        <div class="ba-0 tp-s">
+                                            <img alt="The Vintage Caravan 1 " class="card-img-top img-thumbnail" src="assets/images/gallery/TVC_1.jpg">
+                                            <div class="card-body">
+                                                <p class="card-text">copyright Gael Mathieu</p>
+                                            </div>
+                                        </div>	
+                                    </a>
+                                    
+                                        
+                                    <!-- <img src="assets/images/gallery/TVC_1.jpg" alt="The Vintage Caravan 1" class ="img-thumbnail"> -->
 				            </div>
 									<div class="col-sm-12 col-md-6 col-lg-4 photo-gallery-row">
 										<img src="assets/images/gallery/TVC_33.jpg" alt="The Vintage Caravan 33" class ="img-thumbnail">
@@ -181,9 +194,23 @@
 					</main>
 					<!-- </div> -->
 				</div>
+			<!-- </div>
+		</div> -->
+	</div>
+
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+		<div class="modal-content">
+			<div class="modal-body mb-0 p-0">
+				<img src="assets/images/gallery/TVC_1.jpg" alt="The Vintage Caravan 1" style="width:100%">
+			</div>
+			<div class="modal-footer">
+				<div><a href="https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519674028084513/?type=3&theater" target="_blank">Download</a></div>
+				<button class="btn btn-outline-primary btn-rounded btn-md ml-4 text-center" data-dismiss="modal" type="button">Close</button>
 			</div>
 		</div>
 	</div>
+</div>
 
 	<!-- Footer -->
 	<footer class="container-fluid footer">
@@ -243,6 +270,16 @@
 	</footer>
 
 	<!-- SCRIPTS -->
+    <script>
+    $( 'a a' ).remove();
+
+    document.documentElement.setAttribute("lang", "en");
+    document.documentElement.removeAttribute("class");
+
+    axe.run( function(err, results) {
+    console.log( results.violations );
+    } );
+    </script>
 	<script src="https://kit.fontawesome.com/e576f39845.js" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">

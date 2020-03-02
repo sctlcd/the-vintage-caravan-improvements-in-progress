@@ -380,6 +380,10 @@ h6 {
     padding: 10px;
 }
 
+.item-show-table tr {
+    margin: 10px 0 10px 0;
+}
+
 .show-filters {
     font-weight: bold;
     font-size: 14px;
@@ -444,6 +448,10 @@ h6 {
     width: 100%;
     margin: 0 auto;
 
+}
+
+.shows-page-container {
+    max-width: 50%;
 }
 
 /*---------------------------------------------- Photos page ----------------*/
@@ -565,6 +573,10 @@ h6 {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    .shows-page-container {
+        max-width: 100%;
+    }
 }
 
 /* xs (for phones - screens up to 768px wide) */
@@ -614,18 +626,22 @@ h6 {
     /* Shows page */
 
     /* Responsive display of the table row into multiple line */ 
-    .item-show-table tr {    display: table;  width:100%;    }               
-    .item-show-table td {    display: table-row; }           
-
-    .item-show {
-        text-align: center;
-        margin-bottom: 15px;
-        margin-top: 15px;
+    .item-show-table tr {    
+        display: table;  
+        width:100%;    
     }
 
+    /* Responsive display of the table row into multiple line */
+    .item-show-table td {    
+        display: table-row; 
+    }           
+
     .show-filters {
-        margin-bottom: 10px;
         font-size: 12px;
+    }
+
+    .shows-page-container {
+        max-width: 100%;
     }
     
     /* Music Page */

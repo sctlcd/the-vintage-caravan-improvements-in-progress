@@ -459,7 +459,7 @@ h6 {
 .img-thumbnail {
         border: 1px solid #000000;
         background-color: #000000;
-        width: 70%;
+        width: 100%;
 }
 
 .photo-gallery-row {
@@ -467,65 +467,21 @@ h6 {
 }
 
 .photos-container {
-    margin: 0px 10px 150px 10px;
+    margin: 60px 10px 140px 10px;
 }
 
-.modal,body.modal-open {
-    padding-right: 0!important
-}
-
-body.modal-open {
-    overflow: auto
-}
-
-body.scrollable {
-    overflow-y: auto
-}
-
-.modal-footer {
-	display: flex;
-	justify-content: flex-start;
-    border-top: 1px solid #000000;
-}
-
-.modal-footer .btn {
-		position: absolute;
-		right: 10px;
-}
-
-.modal-content {
-    background-color: #000000;
-}
-
-.modal-footer a{
-    color: #398339;
-}
-
-.modal-footer .btn-outline-primary {
-    color: #398339;
-    border-color: #398339;
-}
-
-.btn-outline-primary:hover {
-    color: #fff;
-    background-color: #398339;
-    border-color: #398339;
-}
-
-.card-body {
-    padding: 0;
-}
-
-.card-body .card-text {
-    letter-spacing: 2px;
+.figure-caption {
+    letter-spacing: 0px;
     font-family: 'Space+Mono', sans-serif; 
-    font-size: 12px;
+    font-size: 10px;
     color: rgba(255, 255, 255, 0.65);
+    padding-left: 5px;
 }
 
-.photo-gallery-row a {
-    color: rgba(255, 255, 255, 0.65);
-    text-decoration-color: rgba(255, 255, 255, 0.65);
+.figure {
+     margin: 30px 0px 30px 0px;
+     text-align: right;
+     font-weight: bold;
 }
 
 /*---------------------------------------------- Contact page ----------------*/

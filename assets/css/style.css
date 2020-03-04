@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
-/* Dekar Regular font*/
+/*
+ How to add custom fonts to any website credit: https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
+ Dekar Regular font
+*/
 @font-face {
     font-family: 'Dekar Regular';
     /* For Internet Explorer */
@@ -99,6 +102,7 @@ h6 {
     color: #fafafa;
 }
 
+/* Responsive background image credit: https://www.webfx.com/blog/web-design/responsive-background-image/ */
 .bg-cover {
     /* Location of the image */
     background-image: url(../images/galaxy-background.jpg);
@@ -649,13 +653,13 @@ h6 {
 
     /* Shows page */
 
-    /* Responsive display of the table row into multiple line */ 
+    /* Responsive display of the table row into multiple line credit: https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206 */ 
     .item-show-table tr {    
         display: table;  
         width:100%;    
     }
 
-    /* Responsive display of the table row into multiple line */
+    /* Responsive display of the table row into multiple line credit: https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206 */
     .item-show-table td {    
         display: table-row; 
     }           

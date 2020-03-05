@@ -5,7 +5,8 @@
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
 <dd>Already a fan of The Vintage Caravan? You've have found the right place!</dd>
 <dd>You don't know The Vintage Caravan? You are in the right place!</dd>
-[The Vintage Caravan]() is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, no shows near you ask them to play in your city, etc...
+
+[The Vintage Caravan]() **live website url TO_ADD** is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, no shows near you ask them to play in your city, etc...
 
 I've discovered The Vintage Caravan totally by coincidence. My boyfriend and I were in a vintage clothing stores in Malasaña, Madrid's neighbourhood, when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
 We've personally saw them twice in live and they are amazing! There will be more for sure!

@@ -1,12 +1,12 @@
-# [The Vintage Caravan]() live website url **TO_ADD**
+# [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/)
 
-<img src="https://github.com/sctlcd/The-Vintage-Caravan/tree/master/app/wireframes/FireShot_Capture_009.png" alt="The Vintage Caravan" width="700">
+<img src="https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
 <dl>
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
 <dd>Already a fan of The Vintage Caravan? You've have found the right place!</dd>
 <dd>You don't know The Vintage Caravan? You are in the right place!</dd>
 
-[The Vintage Caravan]() **live website url TO_ADD** is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, no shows near you ask them to play in your city, etc...
+ [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/) is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, no shows near you ask them to play in your city, etc...
 
 I've discovered The Vintage Caravan totally by coincidence. My boyfriend and I were in a vintage clothing stores in Malasaña, Madrid's neighbourhood, when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
 We've personally saw them twice in live and they are amazing! There will be more for sure!
@@ -68,7 +68,7 @@ Go for it!
 
 ## UX  <a name="UX"></a>
 
-This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies, the **User-Centric Front-End Development** module. The objective of this milestone project is to "*create a static front-end website of at least 3 pages, or at least 3 separate page areas (if using a scrolling page).*"
+This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies, the **User-Centric Front-End Development** module. The objective of this milestone project is to "*create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.*"
 
 I have decided to create a responsive website using HTML, CSS and Bootstrap 4 while having the opportunity to spread the world about this rock'n roll band full of humour with a bright future!
 The purpose of this website is to give the opportunity to people to discover the band and to offer a centralised access to the band's information: history, discography, photos, listen and buy albums on various platforms, event dates and locations, merchandise store, contact the band, etc.
@@ -78,7 +78,7 @@ The purpose of this website is to give the opportunity to people to discover the
 "***As a user, I want to _____***"
 
 - [x] view the site from **any device** (mobile, tablet, desktop).
-- [X] view the **embed YouTube video [Reset](https://www.youtube.com/watch?v=6omREbNT9D0)** on the **top of the navigation menu** on **all devices**.
+- [X] view the **embed YouTube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0)** on the **top of the navigation menu** on **all devices**.
 - [x] view the **YouTube standard enabled options bar** when I **hover** the embed video.
 - [x] **access of the navigation menu** from anywhere on the website **without having to scroll**.
 - [x] view the **band's logo as a link** on the top left corner of the Home page.
@@ -88,10 +88,10 @@ The purpose of this website is to give the opportunity to people to discover the
 - [X] **open** the selected product from the official merchandise store website in a **new browser tab** when I **click on each album picture links** within the discography carousel.
 - [x] **open** the music platform link of the chosen album in a **new browser tab** when I **click on each music platform links** within the music page.  
 - [x] **open** the selected photo link in a **new browser tab** when I **click on each photo links** within the photo page
-- [x] **open** the selected Bandsintown* event link in a **new browser tab** when I **click on the event date link and the venue event link** within the event in Shows page.
+- [x] **open** the selected 'Bandsintown'* event link in a **new browser tab** when I **click on the event date link and the venue event link** within the event in Shows page.
 - [x] view the **upcoming event list** when I **click on the upcoming link**
 - [x] view the **archive link disable** in the Shows pages.
-- [x] **open** the band's Bandsintown* home page in a **new browser tab** when I **click on the "No shows near you? Ask to play in your city!" button** in the Shows pages.
+- [x] **open** the band's 'Bandsintown'* home page in a **new browser tab** when I **click on the "No shows near you? Ask to play in your city!" button** in the Shows pages.
 - [x] **open** the band's official merchandise store website in a **new browser tab** when I **click on the Show menu item** from the navigation menu.
 - [x] view a **contact form with first name, last name, email, message labels and text inputs and a submit button** in the Contact page.
 - [x] view the **white social media icon links** (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer.
@@ -101,25 +101,25 @@ The purpose of this website is to give the opportunity to people to discover the
 <br>
 
 - [x] *marked the item as implemented successfully*
-<br>* *Brandintown is a music website*
+<br>* *'Brandintown' is a music website*
 
 ### Design <a name="Design"></a>
 
-When it's come to The Vintage Caravan, I first think about *Rock'n Roll music* and *Island* so this is why I have designed my entire project around the *starry night sky* with splendid *Northern Lights* idea and dark colors.
+When it's come to The Vintage Caravan, I first think about **Rock'n Roll music** and **Island** so this is why I have designed my entire project around the **starry night sky** with splendid **Northern Lights** idea and dark colors.
 
-I wanted to place a particular emphasis on the [Reset](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) video which I find meaningful, energizing and full of humour. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
+I wanted to place a particular emphasis on the video ['Reset'](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) which I find meaningful, energizing and full of humour. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
 *'We proudly present the new video for 'Reset'. The video was made for us by Icelandic production company Obbosí. We've always been fans of fun music videos and we don't like to take ourselves too seriously when it comes to making videos. We had a blast making this one and we're super happy with how it turned out. Hope you like it as much as we do!' ~ Commented bass player Alex on the release - [Nuclear Blast](https://www.nuclearblast.de/en/label/music/band/news/details/5573791.3159218.the-vintage-caravan-raquo-gateways-laquo-out-now.html)*
 
-About the Music page I was looking for a way to put together the 3 containers "Album details", " Buy this album", "Listen this album" in a harmonious and aesthetic manner. I didn't like the 3 containers, each one in 1 column, align on the same baseline. The idea of the 3 containers with a staggered positioning in 2 columns but harmoniously centered with each others popped up by trying various positionings in Balsamiq Wireframes.
+About the "Music" page, I was looking for a way to put together the 3 containers "Album details", " Buy this album", "Listen this album" in a harmonious and aesthetic manner. I didn't like the 3 containers, each one in 1 column, aligned on the same baseline. The idea of the 3 containers with a staggered positioning in 2 columns but harmoniously centered with each others popped up by trying various positionings in Balsamiq Wireframes.
 
-I picked the green color, reminiscent of the Northern Lights color in the background, when social media links are hovered in the footer. I used this green color when the upcoming link is hovered in the Shows page and to focus on the selected input field in the form or the Contact page as well.
+I picked the green color, reminiscent of the **Northern Lights** color in the background, when social media links are hovered in the footer. I used this green color when the upcoming link is hovered in the "Shows" page and to focus on the selected input field in the form or the "Contact" page as well.
 
 #### Framework <a name="Framework"></a>
 Bootstrap 4 - Because I've used Bootstrap years ago and I liked it and because it meets the project requirements "*Incorporate a main navigation menu and structured layout*" I've decided to build this website with Bootstrap 4.
 
 #### Color Scheme <a name="ColorScheme"></a>
 
-In keeping with the *starry night sky* with *splendid Northern Lights* idea, I have chosen a dark color scheme. I first choose my background image, an [Aurora Borealis](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/) and then the following [html colors](https://html-color.codes/) which work quite well with my theme:
+In keeping with the **starry night sky** with splendid **Northern Lights** concept, I have chosen a dark color scheme. I first choose my background image, an [Aurora Borealis](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/) and then the following [html colors](https://www.hexcolortool.com/) which work quite well with my theme:
 
 - ![#fafafa](https://placehold.it/15/fafafa/fafafa) `#fafafa`
 - ![#000000](https://placehold.it/15/000000/000000) `#000000`(*black*)
@@ -140,7 +140,7 @@ In keeping with the *starry night sky* with *splendid Northern Lights* idea, I h
 
 #### Typography <a name="Typography"></a>
 
-- I have opted to use the custom font [Dekar](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/fonts) designed by [Fontfabric](https://www.fontfabric.com/fonts/dekar/) throughout the application. I really like this simple and easy to read font with a vintage style which I believe fits perfectly with the band's style and the website concept. As a secondary font I have imported the [Google Fonts](https://fonts.google.com/) called [Space Mono](https://fonts.google.com/specimen/Space+Mono).
+- I have opted to use the custom font [Dekar](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/fonts) designed by [Fontfabric](https://www.fontfabric.com/fonts/dekar/) throughout the application. I really like this simple and easy to read font with a vintage style which I believe fits perfectly with the band's style and the website concept. As a secondary font I have imported the [Google Font](https://fonts.google.com/) called [Space Mono](https://fonts.google.com/specimen/Space+Mono).
 
 ### Wireframes <a name="Wireframes"></a>
 
@@ -172,12 +172,12 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 ##### Footer <a name="Footer"></a>
 
 - Social media links allow the user to click on each individual icon and a new tab opens with the corresponding social media band's home page.
-- The Vintage Caravan copyright mention and my name are displayed.
+- The Vintage Caravan copyright mention is displayed (and my name).
 
 ##### [Home page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/index.html) <a name="Homepage"></a>
 
-- The primary focus of the "Home" page is the display of the embed Youtube video [Reset](https://www.youtube.com/watch?v=6omREbNT9D0) loaded in mute and in loop by default in all device sizes. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new tab, etc..   
-- It details the band's history in an About section.
+- The primary focus of the "Home" page is the display of the embed Youtube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0) loaded in mute and in loop by default in all devices. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new tab, etc..   
+- It details the band's history in an "About" section.
 - The last section displays a carousel of their discography offering the possibility to click on each album/vinyl links and then opening the selected product from the official merchandise store in a new browser tab.
 
 ##### [Music page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/music.html) <a name="Musicpage"></a>
@@ -194,15 +194,15 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 
 ##### [Photos page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/photos.html) <a name="Photospage"></a>
 
-- The "Photos" page displays pictures of the band in 3 columns on large and extra large devices, in 2 columns on medium devices and in 1 column on extra small and small devices.
 - Clicking on each photos links open the selected link in a new browser tab.
 - A copyright mention is displayed below each pictures.
+- The "Photos" page displays pictures of the band in 3 columns on large and extra large devices, in 2 columns on medium devices and in 1 column on extra small and small devices.
 
 ##### [Shows page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/shows.html) <a name="Showspage"></a>
 
 - The "Shows" page displays the upcoming events list with dates and locations.
-- Clicking on an event opens, in a new browser tab, the [Bandintown](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) page of the selected event offering to the user various possibilities (buying tickets, find hotels and vacation rental near the location, setting up an event notification, etc..).
-- A button at the bottom of the event list gives the user the chance to ask the band to play in their current city via [Bandintown](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) webpage opening in a new browser tab.
+- Clicking on an event opens, in a new browser tab, the [''Bandsintown''](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) page of the selected event offering to the user various possibilities (buying tickets, find hotels and vacation rental near the location, setting up an event notification, etc..).
+- A button at the bottom of the event list gives the user the chance to ask the band to play in their current city via ['Bandsintown'](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) webpage opening in a new browser tab.
 - The archive link is currently disable.
 
 ##### Store page <a name="Storepage"></a>
@@ -216,8 +216,8 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 
 ### Features Left to Implement <a name="FeaturesLeftToImplement"></a>
  - The Vintage Caravan's videos page.
- - Past event list by clicking on archive link (currently disable) in the Shows page.
- - Server side Contact form.
+ - Past event list by clicking on archive link (currently disable) in the "Shows" page.
+ - Server side of the Contact form.
  - Add a newsletter subscription feature on Home page or on a new page. (to be defined)
 
 Back to [top](#TableOfContents)
@@ -328,23 +328,24 @@ Back to [top](#TableOfContents)
 
 ### Deployment – Live Website <a name="Deploymentlivewebsite"></a>  
 
-	 1.	Create repository in GitHub and give it a relevant name.
-	 2.	Click on your repository to open it.
-	 3.	Find the “settings” tab and click on it.
-	 4.	Scroll down until you arrive at the “GitHub Pages” sections.
-	 5.	Under the “source” drop down menu, choose a branch. I chose “master branch” and select it.
-	 6.	You will then see a URL to your live webpage. In my case the URL is **TO_ADD**
+ 1.	Create repository in GitHub and give it a relevant name.
+ 2.	Click on your repository to open it.
+ 3.	Find the “settings” tab and click on it.
+ 4.	Scroll down until the “GitHub Pages” sections.
+ 5.	Under the “source” drop down menu, choose a branch. I chose “master branch” and select it.
+ 6.	You will then see a URL to your live webpage. In my case the URL is https://sctlcd.github.io/the-vintage-caravan/
 
 ### Deployment – Run Locally <a name="Deploymentrunlocally"></a>
 
-	1.	Again, click on the repository called **TO_ADD**
-	2.	Along the top bar, find the “clone or download” button.
-	3.	Here you have the option to clone by HTTPS or SSH.
-	4.	Once you have chose your desired option, then click the copy icon next to the URL.
-	5.	Open Git Bash.
-	6.	Ensure you are in the correct directory which you want to copy the code into. If not, change the directory now.
-	7.	In the terminal, write the    $ git clone https://github.com/sctlcd/**TO_ADD**
-	8.	Press the enter button and your clone will be created.	 
+1.	Again, click on the repository called [the-vintage-caravan](https://github.com/sctlcd/the-vintage-caravan)
+2.	Along the top bar, find the “clone or download” button.
+3.	Here you have the option to clone by HTTPS or SSH.
+4.	Once you have chose your desired option, then click the copy icon next to the URL.
+5.	Open Git Bash.
+6.	Ensure you are in the correct directory which you want to copy the code into. If not, change the directory.
+7.	In the terminal, write the    
+			$ git clone https://github.com/sctlcd/the-vintage-caravan.git
+8.	Press the enter button and your clone will be created.	 
 
 Back to [top](#TableOfContents)
 

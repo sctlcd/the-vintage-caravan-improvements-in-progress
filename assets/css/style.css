@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
-/* Dekar Regular font*/
+/*
+ How to add custom fonts to any website credit: https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
+ Dekar Regular font
+*/
 @font-face {
     font-family: 'Dekar Regular';
     /* For Internet Explorer */
@@ -99,6 +102,7 @@ h6 {
     color: #fafafa;
 }
 
+/* Responsive background image credit: https://www.webfx.com/blog/web-design/responsive-background-image/ */
 .bg-cover {
     /* Location of the image */
     background-image: url(../images/galaxy-background.jpg);
@@ -435,6 +439,7 @@ h6 {
     background-color:  #14171b;
     border-color:  #14171b;
     margin-bottom: 170px;
+    
 }
 
 .concert-request-button .btn-dark:hover {
@@ -492,8 +497,8 @@ h6 {
 }
 
 .contact-form-container {
-    margin-top: 100px;
-    margin-bottom: 180px;
+    margin-top: 120px;
+    margin-bottom: 150px;
 }
 
 .contact-form-header {
@@ -519,13 +524,17 @@ h6 {
     color: #fafafa;
     background-color:  #14171b;
     border-color:  #14171b;
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .form-group .btn-dark:hover {
     color: #fafafa;
     background-color: #495057;
     border-color:  #495057;
+}
+
+.form-group {
+    margin-bottom: 24px;
 }
 
 .form-control, .custom-file-input, .custom-file-label {
@@ -548,6 +557,10 @@ h6 {
 .custom-file-input:focus~.custom-file-label {
     border-color:  #398339;
     box-shadow: 0 0 0 0.2rem rgba(57, 131, 57, 0.7);
+}
+
+.form-text {
+    margin-bottom: 80px;
 }
 
 /*---------------------------------------------- Media queries ----------------*/
@@ -597,7 +610,7 @@ h6 {
 /* xs (for phones - screens up to 768px wide) */
 
 @media screen and (max-width: 768px ) {
-
+    
     /* Navbar */
 
     .navbar-nav {
@@ -640,13 +653,13 @@ h6 {
 
     /* Shows page */
 
-    /* Responsive display of the table row into multiple line */ 
+    /* Responsive display of the table row into multiple line credit: https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206 */ 
     .item-show-table tr {    
         display: table;  
         width:100%;    
     }
 
-    /* Responsive display of the table row into multiple line */
+    /* Responsive display of the table row into multiple line credit: https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206 */
     .item-show-table td {    
         display: table-row; 
     }           

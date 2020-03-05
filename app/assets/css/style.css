@@ -9,11 +9,11 @@
 @font-face {
     font-family: 'Dekar Regular';
     /* For Internet Explorer */
-    src: url('https://sctlcd.github.io/the-vintage-caravan/assets/fonts/Dekar-Regular.eot') ;
+    src: url('https://sctlcd.github.io/the-vintage-caravan/app/assets/fonts/Dekar-Regular.eot');
     /* For Chrome, Firefox, Safari, Opera */
     src: local('Dekar Regular'),
 	     local('Dekar-Regular'),
-         url('https://sctlcd.github.io/the-vintage-caravan/assets/fonts/dekar-regular-webfont.woff') format('woff');
+         url('https://sctlcd.github.io/the-vintage-caravan/app/assets/fonts/dekar-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

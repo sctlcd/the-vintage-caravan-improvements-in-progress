@@ -314,11 +314,9 @@ For testing this website on the latest version of Safari, I will have to install
 
 **HTML**
 - [W3C HTML Validator](https://validator.w3.org/)
-**TO_ADD**
 
 **CSS**
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-**TO_ADD**
 
 ### Known Issues <a name="KnownIssues"></a>
 

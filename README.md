@@ -1,6 +1,7 @@
 # [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/)
+ 
+<img src="https://github.com/sctlcd/the-vintage-caravan/blob/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan - social preview image" width="800">
 
-<img src="https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
 <dl>
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
 <dd>Already a fan of The Vintage Caravan? You've have found the right place!</dd>
@@ -230,6 +231,7 @@ Back to [top](#TableOfContents)
 - [Gitpod](https://www.gitpod.io/) - Used as an online IDE.
 - [Atom](https://atom.io/) - Used as local IDE.
 - [Compressjpeg](https://compressjpeg.com/) - Used to compress images for loading faster
+- [Techsini](https://techsini.com/multi-mockup/) - Used to generate multi-device website mockup
 
 ##### Front-End Technologies <a name="Front-end-technologies"></a>
 
@@ -242,6 +244,8 @@ Back to [top](#TableOfContents)
 ---
 
 ## Testing <a name="Testing"></a>
+
+Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
 
 ### Layout responsiveness <a name="Layoutresponsiveness"></a>
 

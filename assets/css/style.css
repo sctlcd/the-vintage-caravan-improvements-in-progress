@@ -610,7 +610,7 @@ h6 {
 /* xs (for phones - screens up to 768px wide) */
 
 @media screen and (max-width: 768px ) {
-
+    
     /* Navbar */
 
     .navbar-nav {

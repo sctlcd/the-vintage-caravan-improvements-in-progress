@@ -7,7 +7,7 @@
 <dd>You don't know The Vintage Caravan? You are in the right place!</dd>
 [The Vintage Caravan]() is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, no shows near you ask them to play in your city, etc...
 
-I've discovered The Vintage Caravan totally by coincidence. My boyfriend and I were in a vintage clothing stores in Malasaña, Madrid's neighbourhood, when we listened a fantastic song we've never heard before. Since then we are big fans of the band.
+I've discovered The Vintage Caravan totally by coincidence. My boyfriend and I were in a vintage clothing stores in Malasaña, Madrid's neighbourhood, when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
 We've personally saw them twice in live and they are amazing! There will be more for sure!
 <br>
 Go for it!
@@ -45,8 +45,9 @@ Go for it!
 
 4. [Testing](#Testing)
 
-	- [Test coverage](#Testcoverage)
+	- [Layout responsiveness](#Layoutresponsiveness)
 	- [Compatibility](#Compatibility)
+	- [Testing left](#Testingleft)
 	- [Validators](#Validators)
 	- [Known Issues](#KnownIssues)
 
@@ -73,43 +74,44 @@ The purpose of this website is to give the opportunity to people to discover the
 
 ### User Stories <a name="UserStories"></a>
 
-**TO_FORMAT**
+"***As a user, I want to _____***"
 
-"**As a user, I want to ___**"
-- [x] view the site* from **any device** (mobile, tablet, desktop).
-- [X] view the embed YouTube video [Reset](https://www.youtube.com/watch?v=6omREbNT9D0) on the top of the navigation menu on all devices in mute and in loop.
-- [x] view the YouTube standard enabled options bar when I hover the embed video.
+- [x] view the site from **any device** (mobile, tablet, desktop).
+- [X] view the **embed YouTube video [Reset](https://www.youtube.com/watch?v=6omREbNT9D0)** on the **top of the navigation menu** on **all devices**.
+- [x] view the **YouTube standard enabled options bar** when I **hover** the embed video.
 - [x] **access of the navigation menu** from anywhere on the website **without having to scroll**.
-- [x] view the band's logo as a link on the top left corner of the Home page.
-- [x] reload the Home page when I click on the band's logo link.
-- [X] click on each menu item links and navigate to the page with the same name.
-- [x] scroll through the album picture within the discography carousel.
-- [X] open the selected product in the official merchandise store website in a new browser tab when I click on each album picture links within the discography carousel.
-- [x] open the selected album of the music platform link in a new browser tab when I click on each music platform links within the music page.  
-- [x] open the selected photo link in a new browser tab when I click on each photo within the photo page
-- [x] open the selected Brandintown event link in a new browser tab when I click on the event date link and the venue event link within the event in Shows page.
-- [x] see the event list of the upcoming events when I click on the upcoming filter link
-- [x] see the archive filter link disable in the Shows pages.
-- [x] open the band's Brandintown home page in a new browser tab when I click on the "No shows near you? Ask to play in your city!" button in the Shows pages.
-- [x] open the band's official merchandise store website in a new browser tab when I click on the Show menu item.
-- [x] view a contact form with first name, last name, email, message labels and text inputs and a submit button in the Contact page.
-- [x] view the white social media icon links (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer.
-- [x] view the  green social media icon links (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer when I hover each icons .
-- [x] open the band's social media home page in a new browser tab when I click on the corresponding social media icon link.
+- [x] view the **band's logo as a link** on the top left corner of the Home page.
+- [x] **reload the Home page** when I click on the **band's logo link**.
+- [X] click on each **menu item links** and **navigate** to the page with the same name.
+- [x] **scroll through** the album pictures within the **discography carousel**.
+- [X] **open** the selected product from the official merchandise store website in a **new browser tab** when I **click on each album picture links** within the discography carousel.
+- [x] **open** the music platform link of the chosen album in a **new browser tab** when I **click on each music platform links** within the music page.  
+- [x] **open** the selected photo link in a **new browser tab** when I **click on each photo links** within the photo page
+- [x] **open** the selected Bandsintown* event link in a **new browser tab** when I **click on the event date link and the venue event link** within the event in Shows page.
+- [x] view the **upcoming event list** when I **click on the upcoming link**
+- [x] view the **archive link disable** in the Shows pages.
+- [x] **open** the band's Bandsintown* home page in a **new browser tab** when I **click on the "No shows near you? Ask to play in your city!" button** in the Shows pages.
+- [x] **open** the band's official merchandise store website in a **new browser tab** when I **click on the Show menu item** from the navigation menu.
+- [x] view a **contact form with first name, last name, email, message labels and text inputs and a submit button** in the Contact page.
+- [x] view the **white social media icon links** (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer.
+- [x] view the **green social media icon links** (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer when I **hover** each icons .
+- [x] **open** the band's social media home page in a **new browser tab** when I **click on the corresponding social media icon link**.
 - [x] view The Vintage Caravan Copyright mention in the footer.
+<br>
 
-[x] This item is marked as complete. The checkbox is checked.
+- [x] *marked the item as implemented successfully*
+<br>* *Brandintown is a music website*
 
 ### Design <a name="Design"></a>
 
 When it's come to The Vintage Caravan, I first think about *Rock'n Roll music* and *Island* so this is why I have designed my entire project around the *starry night sky* with splendid *Northern Lights* idea and dark colors.
 
 I wanted to place a particular emphasis on the [Reset](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) video which I find meaningful, energizing and full of humour. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
-Comments bass player Alex on the release "*We proudly present the new video for 'Reset'. The video was made for us by Icelandic production company Obbosí. We've always been fans of fun music videos and we don't like to take ourselves too seriously when it comes to making videos. We had a blast making this one and we're super happy with how it turned out. Hope you like it as much as we do!*" [Nuclear Blast](https://www.nuclearblast.de/en/label/music/band/news/details/5573791.3159218.the-vintage-caravan-raquo-gateways-laquo-out-now.html)
+*'We proudly present the new video for 'Reset'. The video was made for us by Icelandic production company Obbosí. We've always been fans of fun music videos and we don't like to take ourselves too seriously when it comes to making videos. We had a blast making this one and we're super happy with how it turned out. Hope you like it as much as we do!' ~ Commented bass player Alex on the release - [Nuclear Blast](https://www.nuclearblast.de/en/label/music/band/news/details/5573791.3159218.the-vintage-caravan-raquo-gateways-laquo-out-now.html)*
 
-About the Music page I was looking for a way to put together the 3 containers "Album details", " Buy this album", "Listen this album" in a harmonious and aesthetic manner. I didn't like the 3 containers, each one in 1 column, align on the same baseline. The idea of the 3 containers with a staggered positioning in 2 columns but harmonious centered with each others pops up by trying various positionings in Balsamiq Wireframes.
+About the Music page I was looking for a way to put together the 3 containers "Album details", " Buy this album", "Listen this album" in a harmonious and aesthetic manner. I didn't like the 3 containers, each one in 1 column, align on the same baseline. The idea of the 3 containers with a staggered positioning in 2 columns but harmoniously centered with each others popped up by trying various positionings in Balsamiq Wireframes.
 
-Social Media links in the footer hovered with a green color, reminiscent of the Northern Light color in the background.
+I picked the green color, reminiscent of the Northern Lights color in the background, when social media links are hovered in the footer. I used this green color when the upcoming link is hovered in the Shows page and to focus on the selected input field in the form or the Contact page as well.
 
 #### Framework <a name="Framework"></a>
 Bootstrap 4 - Because I've used Bootstrap years ago and I liked it and because it meets the project requirements "*Incorporate a main navigation menu and structured layout*" I've decided to build this website with Bootstrap 4.
@@ -123,13 +125,12 @@ In keeping with the *starry night sky* with *splendid Northern Lights* idea, I h
 - ![#14171b](https://placehold.it/15/14171b/14171b) `#14171b`
 - ![#495057](https://placehold.it/15/495057/495057) `#495057`
 - ![#767676](https://placehold.it/15/767676/767676) `#767676`
--  `rgba(255, 255, 255, 0.65)`
--  `rgba(0, 0, 0, 0.5)`
--  `rgba(255, 255, 255, 0.75)`
--  `rgba(57, 131, 57, 0.7)`
--  `rgba(180, 180, 180, 0.9)`
+- ![#0000](https://placehold.it/15/0000/0000) `rgba(0, 0, 0, 0.5)`
+- ![#ffffff](https://placehold.it/15/ffffff/ffffff) `rgba(255, 255, 255, 0.65)`
+- ![#ffffff](https://placehold.it/15/ffffff/ffffff) `rgba(255, 255, 255, 0.75)`
+- ![#b4b4b4](https://placehold.it/15/b4b4b4/b4b4b4) `rgba(180, 180, 180, 0.9)`
+- ![#398339](https://placehold.it/15/398339/398339) `rgba(57, 131, 57, 0.7)`
 - ![#398339](https://placehold.it/15/398339/398339) `#398339`
-
 
 #### Icons <a name="Icons"></a>
 
@@ -193,28 +194,29 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 ##### [Photos page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/photos.html) <a name="Photospage"></a>
 
 - The "Photos" page displays pictures of the band in 3 columns on large and extra large devices, in 2 columns on medium devices and in 1 column on extra small and small devices.
-- Clicking on each photos open the selected link in a new tab.
+- Clicking on each photos links open the selected link in a new browser tab.
 - A copyright mention is displayed below each pictures.
 
 ##### [Shows page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/shows.html) <a name="Showspage"></a>
 
-- The "Shows" page displays a list of the upcoming events with dates and locations.
-- Clicking on an event opens in a new tab the [Bandintown](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) page of the selected event offering to the user various possibilities (buying tickets, find hotels and vacation rental near the location, setting up event notification, etc..).
-- A button at the end of the event list gives the user the chance to ask the band to play in their current city via [Bandintown](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) webpage opening in a new tab.
-- The archive filter link is currently disable.
+- The "Shows" page displays the upcoming events list with dates and locations.
+- Clicking on an event opens, in a new browser tab, the [Bandintown](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) page of the selected event offering to the user various possibilities (buying tickets, find hotels and vacation rental near the location, setting up an event notification, etc..).
+- A button at the bottom of the event list gives the user the chance to ask the band to play in their current city via [Bandintown](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) webpage opening in a new browser tab.
+- The archive link is currently disable.
 
 ##### Store page <a name="Storepage"></a>
 
-- The "Store" page opens [The Vintage Caravan official merchandise store](https://www.merchplanet.com/vintagecaravan/) website in a new tab.
+- The "Store" page opens [The Vintage Caravan official merchandise store](https://www.merchplanet.com/vintagecaravan/) website in a new browser tab.
 
 ##### [Contact page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/contact.html) <a name="Contactpage"></a>
 
 - The "Contact" page offers the possibility to send a message to the band.
+- The contact form is composed of a first name, a last name, an email address, a message labels and text inputs and a submit button.
 
 ### Features Left to Implement <a name="FeaturesLeftToImplement"></a>
- - The Vintage Caravan videos page
- - Past events of the Shows page (archive filter link currently disable on the Shows page)
- - Server side Contact form (out of scope of the project requirements)
+ - The Vintage Caravan's videos page.
+ - Past event list by clicking on archive link (currently disable) in the Shows page.
+ - Server side Contact form.
  - Add a newsletter subscription feature on Home page or on a new page. (to be defined)
 
 Back to [top](#TableOfContents)
@@ -226,7 +228,7 @@ Back to [top](#TableOfContents)
 - [GitHub](https://github.com/) - Used as remote storage of my code online.
 - [Gitpod](https://www.gitpod.io/) - Used as an online IDE.
 - [Atom](https://atom.io/) - Used as local IDE.
-- [Compressjpeg](https://compressjpeg.com/) - **TO_ADD ?**
+- [Compressjpeg](https://compressjpeg.com/) - Used to compress images for loading faster
 
 ##### Front-End Technologies <a name="Front-end-technologies"></a>
 
@@ -240,26 +242,68 @@ Back to [top](#TableOfContents)
 
 ## Testing <a name="Testing"></a>
 
-### Test coverage <a name="Testcoverage"></a>
+### Layout responsiveness <a name="Layoutresponsiveness"></a>
 
-**TO_ADD**
+| All pages | Galaxy S5 | Pixel | Pixel 2 XL |iPhone 6/7/8 | iPhone 6/7/8 Plus | iPhone X | iPad | iPad Pro | Desktop 1024px | Desktop >1200px |
+| :--- | :--- | :---| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Navigation <992px | Good | Good | Good | Good | Good | Good | Good | n/a | n/a | n/a |
+| Navigation >992px | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Good | Good | Good |
+|**index.html** |
+| *Video / video options* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| **music.html** |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| **photos.html** |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| **shows.html** |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| **store.html** |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| **contact.html** |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 
-Page      | Screen      | Desired outcome | Result
---------- | ----------- | --------------- | ---
-          | SM | result as expected in the wireframes | True
-					| SM | result as expected in the wireframes | True
-          | SM | result as expected in the wireframes | True
 
 ### Compatibility <a name="Compatibility"></a>
 
-					To ensure a broad range of users can successfully use this site, I tested it across the 6 major browsers in both desktop and mobile configuration.
+I tested the website across the 6 main browsers in both desktop and mobile configuration to ensure a large number of users can use it successfully.
 
-					- Chrome v. **TO_ADD**
-					- Edge v. **TO_ADD**
-					- Firefox v. **TO_ADD**
-					- Safari v. **TO_ADD**
-					- Opera v. **TO_ADD**
-					- Internet Explorer v. **TO_ADD**
+- Chrome v.80.0
+- Edge v.44
+- Firefox v.73.0.1
+- Safari v.5.1.7 on Windows 10
+- Opera v.67.0
+- Internet Explorer v.11
+
+| All pages | Chrome | Edge | Firefox | Safari | Opera | IE |
+| :--- | :--- | :---| :--- | :--- | :--- | :--- |
+| Expected appearance | Good | Fair | Good | Poor | Good | Poor |
+| Expected responsiveness | Good | Good | Good | Poor | Good | Poor |
+
+- **Edge**: music page containers do not render as expected, the 3 containers with a staggered positioning in 2 columns are not harmoniously centered with each others. Album container size is reduced. Each links open in a separate new window.  
+
+- **IE**: [Some CSS3 properties and HTML5 elements are not fully supported](https://getbootstrap.com/docs/4.0/getting-started/browsers-devices/#internet-explorer)
+
+- **Safari v.5.1.7**: It’s an outdated version and lacks many of the features present in the latest version of Safari. The last version of Safari for Windows was released on May 9, 2012.
+
+### Testing left <a name="Testingleft"></a>
+
+There is no way to install the latest version of the Safari browser on Windows 10 as Apple stopped developing Safari for Windows operating system long ago.
+For testing this website on the latest version of Safari, I will have to install the newest version of macOS on Windows 10 in a virtual machine.
 
 ### Validators <a name="Validators"></a>
 
@@ -272,7 +316,8 @@ Page      | Screen      | Desired outcome | Result
 **TO_ADD**
 
 ### Known Issues <a name="KnownIssues"></a>
-**TO_ADD**
+
+I've notice some refresh issues when going from desktop to mobile while I was testing. Opening the hamburger menu and selecting the same page or another page display the page correctly.  
 
 Back to [top](#TableOfContents)
 
@@ -306,7 +351,7 @@ Back to [top](#TableOfContents)
 
 ## Credits <a name="Credits"></a>
 
-I've got my inspiration from [The Vintage Caravan](https://www.thevintagecaravan.eu/) official website and from their record label website, [Nuclear Blast](https://www.nuclearblast.de/en/shop/artikel/gruppen/51000.1.html?article_group_sort_type_handle=rank&custom_keywords=the+vintage+caravan&custom_artists=3159218&sli=22590626#page-1).
+My inspiration comes from [The Vintage Caravan](https://www.thevintagecaravan.eu/) official website and from the band's record label website, [Nuclear Blast](https://www.nuclearblast.de/en/shop/artikel/gruppen/51000.1.html?article_group_sort_type_handle=rank&custom_keywords=the+vintage+caravan&custom_artists=3159218&sli=22590626#page-1).
 
 ### Content <a name="Content"></a>
 
@@ -317,30 +362,30 @@ I've got my inspiration from [The Vintage Caravan](https://www.thevintagecaravan
 Sources of the images used on this site:
 
 - From gallery sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/gallery)
- - [TVC_1.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519674028084513/?type=3&theater) - copyright Gael Mathieu
- - [TVC_33.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2423379847713932/?type=3&theater) - copyright Sven Grosch
- - [TVC_2.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2559313840787198/?type=3&theater) - copyright Julien Dupeyron
- - [TVC_5.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972958087951/?type=3&theater) - copyright Julien Dupeyron
- - [TVC_9.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2937799776271934/?type=3&theater) - copyright Fabian Lippke » Fotograf
- - [TVC_6.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2781938425191404/?type=3&theater) - copyright Tjeerd Derkink
- - [TVC_7.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2858176484234264/?type=3&theater) - copyright The Vintage Caravan
- - [TVC_4.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2744893828895864/?type=3&theater) - copyright The Vintage Caravan
- - [TVC_25.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2340217576030160/?type=3&theater) - copyright Fabian Lippke » Fotograf
- - [TVC_13.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2029703040414950/?type=3&theater) - copyright The Vintage Caravan
- - [TVC_10.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/954499534601978/?type=3&theater) - copyright Domantas Kvedaras
- - [TVC_12.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2029702930414961/?type=3&theater) - copyright The Vintage Caravan
- - [TVC_14.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2184383684946884/?type=3&theater) - copyright The Vintage Caravan
- - [TVC_18.jpg](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1045500508835213/?type=3&theater) - copyright Bjorns photos
- - [TVC_20.jpg](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1231343676917561/?type=3&theater) - copyright The Vintage Caravan
- - [TVC_15.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519673634751219/?type=3&theater) - copyright Gael Mathieu
- - [TVC_8.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2866551196730126/?type=3&theater) - copyright Fabian Lippke » Fotograf
- - [TVC_30.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407845311129/?type=3&theater) - copyright ELP-Photo
- - [TVC_32.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407991977781/?type=3&theater) - copyright ELP-Photo
- - [TVC_19.jpg](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1067927786592485/?type=3&theater) - copyright Burning Moon
- - [TVC_31.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407971977783/?type=3&theater) - copyright ELP-Photo
- - [TVC_34.jpg](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1253299878055274/?type=3&theater) - copyright Renato Jacob
- - [TVC_27.jpg](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972798087967/?type=3&theater) - copyright Renato Jacob
- - [TVC_23.jpg](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1283809088337686/?type=3&theater) - copyright Caro Staley
+ - TVC_1.jpg - [copyright Gael Mathieu](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519674028084513/?type=3&theater)
+ - TVC_33.jpg - [copyright Sven Grosch](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2423379847713932/?type=3&theater)
+ - TVC_2.jpg - [copyright Julien Dupeyron](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2559313840787198/?type=3&theater)
+ - TVC_5.jpg - [copyright Julien Dupeyron](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972958087951/?type=3&theater)
+ - TVC_9.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2937799776271934/?type=3&theater)  
+ - TVC_6.jpg - [copyright Tjeerd Derkink](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2781938425191404/?type=3&theater)  
+ - TVC_7.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2858176484234264/?type=3&theater)
+ - TVC_4.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2744893828895864/?type=3&theater)  
+ - TVC_25.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2340217576030160/?type=3&theater)  
+ - TVC_13.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2029703040414950/?type=3&theater)  
+ - TVC_10.jpg - [copyright Domantas Kvedaras](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/954499534601978/?type=3&theater)
+ - TVC_12.jpg -[copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2029702930414961/?type=3&theater)
+ - TVC_14.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2184383684946884/?type=3&theater)
+ - TVC_18.jpg - [copyright Bjorns photos](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1045500508835213/?type=3&theater)
+ - TVC_20.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1231343676917561/?type=3&theater)
+ - TVC_15.jpg - [copyright Gael Mathieu](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519673634751219/?type=3&theater)
+ - TVC_8.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2866551196730126/?type=3&theater)
+ - TVC_30.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407845311129/?type=3&theater)
+ - TVC_32.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407991977781/?type=3&theater)
+ - TVC_19.jpg - [copyright Burning Moon](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1067927786592485/?type=3&theater)
+ - TVC_31.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407971977783/?type=3&theater)
+ - TVC_34.jpg - [copyright Renato Jacob](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1253299878055274/?type=3&theater)
+ - TVC_27.jpg - [copyright Renato Jacob](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972798087967/?type=3&theater)
+ - TVC_23.jpg - [copyright Caro Staley](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1283809088337686/?type=3&theater)
 
 - From carousel sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/carousel)
  - gateway-vinyl.jpg - [Ebay](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=N-841vKF900L8M)
@@ -364,10 +409,12 @@ Sources of the images used on this site:
 
 ### Code <a name="Code"></a>
 
-- YouTube Embedded Players and Player Parameters- [YouTube](https://developers.google.com/youtube/player_parameters)
+- Embed videos & playlists - [YouTube](https://support.google.com/youtube/answer/171780?hl=en&ref_topic=9257102)
+- YouTube Embedded Players and Player Parameters - [YouTube](https://developers.google.com/youtube/player_parameters)
+- Bootstrap Embeds - [Getbootstrap](https://getbootstrap.com/docs/4.0/utilities/embed/)
 - Responsive background image - [Webfx](https://www.webfx.com/blog/web-design/responsive-background-image/)
 - Dekar font download - [Fontsquirrel](https://www.fontsquirrel.com/fonts/dekar)
-- Webfont generator - [Fontsquirrel](https://www.fontsquirrel.com/tools/webfont-generator)
+- Web font generator - [Fontsquirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 - How to add custom fonts to any website - [Pagecloud](https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website)
 - Bootstrap 4 carousel - [Bootstrapcreative](https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/)
 - Break a table row into multiple line (responsive layout) - [Stackoverflow](https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206)
@@ -375,7 +422,7 @@ Sources of the images used on this site:
 ### Acknowledgements <a name="Acknowledgements"></a>
 
 - [Anthony Ngene](https://github.com/tonymontaro)
-	- Thanks to my Code Institute mentor or his time, suggestions, and constructive feedback
+	- Thanks to my Code Institute mentor of his time, suggestions, and constructive feedback
 
 Back to [top](#TableOfContents)
 

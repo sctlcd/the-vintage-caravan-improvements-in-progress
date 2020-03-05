@@ -1,6 +1,7 @@
 # [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/)
+ 
+<img src="https://github.com/sctlcd/the-vintage-caravan/blob/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan - social preview image" width="800">
 
-<img src="https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
 <dl>
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
 <dd>Already a fan of The Vintage Caravan? You've have found the right place!</dd>

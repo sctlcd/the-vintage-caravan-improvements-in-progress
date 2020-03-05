@@ -244,6 +244,8 @@ Back to [top](#TableOfContents)
 
 ## Testing <a name="Testing"></a>
 
+Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
+
 ### Layout responsiveness <a name="Layoutresponsiveness"></a>
 
 | All pages | Galaxy S5 | Pixel | Pixel 2 XL |iPhone 6/7/8 | iPhone 6/7/8 Plus | iPhone X | iPad | iPad Pro | Desktop 1024px | Desktop >1200px |

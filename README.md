@@ -98,6 +98,8 @@ The purpose of this website is to give the opportunity to people to discover the
 - [x] open the band's social media home page in a new browser tab when I click on the corresponding social media icon link.
 - [x] view The Vintage Caravan Copyright mention in the footer.
 
+[x] This item is marked as complete. The checkbox is checked.
+
 ### Design <a name="Design"></a>
 
 When it's come to The Vintage Caravan, I first think about *Rock'n Roll music* and *Island* so this is why I have designed my entire project around the *starry night sky* with splendid *Northern Lights* idea and dark colors.

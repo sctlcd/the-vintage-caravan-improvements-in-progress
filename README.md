@@ -231,6 +231,7 @@ Back to [top](#TableOfContents)
 - [Gitpod](https://www.gitpod.io/) - Used as an online IDE.
 - [Atom](https://atom.io/) - Used as local IDE.
 - [Compressjpeg](https://compressjpeg.com/) - Used to compress images for loading faster
+- [Techsini](https://techsini.com/multi-mockup/) - Used to generate multi-device website mockup
 
 ##### Front-End Technologies <a name="Front-end-technologies"></a>
 

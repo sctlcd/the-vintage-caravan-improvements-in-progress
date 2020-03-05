@@ -1,6 +1,6 @@
-# [The Vintage Caravan]() **TO_ADD**
+# [The Vintage Caravan]() live website url **TO_ADD**
 
-**TO_ADD photo of home page**
+<img src="https://github.com/sctlcd/The-Vintage-Caravan/tree/master/app/wireframes/FireShot_Capture_009.png" alt="The Vintage Caravan" width="700">
 <dl>
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
 <dd>Already a fan of The Vintage Caravan? You've have found the right place!</dd>
@@ -45,10 +45,15 @@ Go for it!
 
 4. [Testing](#Testing)
 
+	- [Test coverage](#Testcoverage)
+	- [Compatibility](#Compatibility)
 	- [Validators](#Validators)
 	- [Known Issues](#KnownIssues)
 
 5. [Deployment](#Deployment)
+
+	- [Deployment – Live website](#Deploymentlivewebsite)
+	- [Deployment – Run locally](#Deploymentrunlocally)
 
 6. [Credits](#Credits)
 
@@ -67,6 +72,8 @@ I have decided to create a responsive website using HTML, CSS and Bootstrap 4 wh
 The purpose of this website is to give the opportunity to people to discover the band and to offer a centralised access to the band's information: history, discography, photos, listen and buy albums on various platforms, event dates and locations, merchandise store, contact the band, etc.
 
 ### User Stories <a name="UserStories"></a>
+
+**TO_FORMAT**
 
 "**As a user, I want to ___**"
 - [x] view the site* from **any device** (mobile, tablet, desktop).
@@ -100,7 +107,7 @@ Comments bass player Alex on the release "*We proudly present the new video for 
 
 About the Music page I was looking for a way to put together the 3 containers "Album details", " Buy this album", "Listen this album" in a harmonious and aesthetic manner. I didn't like the 3 containers, each one in 1 column, align on the same baseline. The idea of the 3 containers with a staggered positioning in 2 columns but harmonious centered with each others pops up by trying various positionings in Balsamiq Wireframes.
 
-Social Media links in the footer pop with a green color, reminiscent of the Northern Light color in the background.
+Social Media links in the footer hovered with a green color, reminiscent of the Northern Light color in the background.
 
 #### Framework <a name="Framework"></a>
 Bootstrap 4 - Because I've used Bootstrap years ago and I liked it and because it meets the project requirements "*Incorporate a main navigation menu and structured layout*" I've decided to build this website with Bootstrap 4.
@@ -114,11 +121,11 @@ In keeping with the *starry night sky* with *splendid Northern Lights* idea, I h
 - ![#14171b](https://placehold.it/15/14171b/14171b) `#14171b`
 - ![#495057](https://placehold.it/15/495057/495057) `#495057`
 - ![#767676](https://placehold.it/15/767676/767676) `#767676`
-- ![#ffffffa6](https://placehold.it/15/#ffffffa6/#ffffffa6) `rgba(255, 255, 255, 0.65)`
-- ![#00000080](https://placehold.it/15/#00000080/#00000080) `rgba(0, 0, 0, 0.5)`
-- ![#ffffffbf](https://placehold.it/15/#ffffffbf/#ffffffbf) `rgba(255, 255, 255, 0.75)`
-- ![#b4b4b4e6](https://placehold.it/15/#b4b4b4e6/#b4b4b4e6) `rgba(180, 180, 180, 0.9)`
-- ![#398339b3](https://placehold.it/15/#398339b3/#398339b3) `rgba(57, 131, 57, 0.7)`
+-  `rgba(255, 255, 255, 0.65)`
+-  `rgba(0, 0, 0, 0.5)`
+-  `rgba(255, 255, 255, 0.75)`
+-  `rgba(57, 131, 57, 0.7)`
+-  `rgba(180, 180, 180, 0.9)`
 - ![#398339](https://placehold.it/15/398339/398339) `#398339`
 
 
@@ -158,7 +165,6 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 - Each menu item is linked to the relevant page with the same name.
 - In mobile view the navbar is collapsed allowing the users more space on the screen. The users can click on the “hamburger” icon and still receive the full menu as a drop down function.
 
-
 ##### Footer <a name="Footer"></a>
 
 - Social media links allow the user to click on each individual icon and a new tab opens with the corresponding social media band's home page.
@@ -169,7 +175,6 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 - The primary focus of the "Home" page is the display of the embed Youtube video [Reset](https://www.youtube.com/watch?v=6omREbNT9D0) loaded in mute and in loop by default in all device sizes. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new tab, etc..   
 - It details the band's history in an About section.
 - The last section displays a carousel of their discography offering the possibility to click on each album/vinyl links and then opening the selected product from the official merchandise store in a new browser tab.
-
 
 ##### [Music page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/music.html) <a name="Musicpage"></a>
 
@@ -188,7 +193,6 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 - The "Photos" page displays pictures of the band in 3 columns on large and extra large devices, in 2 columns on medium devices and in 1 column on extra small and small devices.
 - Clicking on each photos open the selected link in a new tab.
 - A copyright mention is displayed below each pictures.
-
 
 ##### [Shows page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/shows.html) <a name="Showspage"></a>
 
@@ -220,9 +224,9 @@ Back to [top](#TableOfContents)
 - [GitHub](https://github.com/) - Used as remote storage of my code online.
 - [Gitpod](https://www.gitpod.io/) - Used as an online IDE.
 - [Atom](https://atom.io/) - Used as local IDE.
-- [Compressjpeg](https://compressjpeg.com/) - TO_ADD ?
+- [Compressjpeg](https://compressjpeg.com/) - **TO_ADD ?**
 
-### Front-End Technologies <a name="Front-end-technologies"></a>
+##### Front-End Technologies <a name="Front-end-technologies"></a>
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Used as the base for markup text.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Used as the base for cascading styles.
@@ -234,23 +238,66 @@ Back to [top](#TableOfContents)
 
 ## Testing <a name="Testing"></a>
 
+### Test coverage <a name="Testcoverage"></a>
+
+**TO_ADD**
+
+Page      | Screen      | Desired outcome | Result
+--------- | ----------- | --------------- | ---
+          | SM | result as expected in the wireframes | True
+					| SM | result as expected in the wireframes | True
+          | SM | result as expected in the wireframes | True
+
+### Compatibility <a name="Compatibility"></a>
+
+					To ensure a broad range of users can successfully use this site, I tested it across the 6 major browsers in both desktop and mobile configuration.
+
+					- Chrome v. **TO_ADD**
+					- Edge v. **TO_ADD**
+					- Firefox v. **TO_ADD**
+					- Safari v. **TO_ADD**
+					- Opera v. **TO_ADD**
+					- Internet Explorer v. **TO_ADD**
+
 ### Validators <a name="Validators"></a>
 
 **HTML**
 - [W3C HTML Validator](https://validator.w3.org/)
+**TO_ADD**
 
 **CSS**
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+**TO_ADD**
 
 ### Known Issues <a name="KnownIssues"></a>
-TO_ADD
+**TO_ADD**
 
 Back to [top](#TableOfContents)
 
 ---
 
 ## Deployment <a name="Deployment"></a>
-**TO_ADD**
+
+### Deployment – Live Website <a name="Deploymentlivewebsite"></a>  
+
+	 1.	Create repository in GitHub and give it a relevant name.
+	 2.	Click on your repository to open it.
+	 3.	Find the “settings” tab and click on it.
+	 4.	Scroll down until you arrive at the “GitHub Pages” sections.
+	 5.	Under the “source” drop down menu, choose a branch. I chose “master branch” and select it.
+	 6.	You will then see a URL to your live webpage. In my case the URL is **TO_ADD**
+
+### Deployment – Run Locally <a name="Deploymentrunlocally"></a>
+
+	1.	Again, click on the repository called **TO_ADD**
+	2.	Along the top bar, find the “clone or download” button.
+	3.	Here you have the option to clone by HTTPS or SSH.
+	4.	Once you have chose your desired option, then click the copy icon next to the URL.
+	5.	Open Git Bash.
+	6.	Ensure you are in the correct directory which you want to copy the code into. If not, change the directory now.
+	7.	In the terminal, write the    $ git clone https://github.com/sctlcd/**TO_ADD**
+	8.	Press the enter button and your clone will be created.	 
+
 Back to [top](#TableOfContents)
 
 ---
@@ -294,24 +341,24 @@ Sources of the images used on this site:
  - [TVC_23.jpg](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1283809088337686/?type=3&theater) - copyright Caro Staley
 
 - From carousel sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/carousel)
- - [gateway-vinyl.jpg](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=N-841vKF900L8M)
- - [gateways-cd.jpg](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=B21CpamTPsfTnM)
- - [arrival-cd.jpg](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=kYCP-hMIk_mfiM)
- - [arrival-vinyl.jpg](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=LPuvtusN0g67TM)
- - [voyage-cd.jpg](https://www.google.com/search?q=the+vintage+caravan+album+hd&tbm=isch&ved=2ahUKEwjJm6-llYHoAhXCRxUIHR9VBncQ2-cCegQIABAA&oq=the+vintage+caravan+album+hd&gs_l=img.3...153017.155582..156506...0.0..0.66.588.10......0....1..gws-wiz-img.nX3ie_zRfsg&ei=c81fXomWD8KP1fAPn6qZuAc&bih=937&biw=1920#imgrc=LcI3TRgkP2I8yM)
- - [voyage-vinyl.jpg](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=bbYyccKkvV8hPM)
+ - gateway-vinyl.jpg - [Ebay](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=N-841vKF900L8M)
+ - gateways-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=B21CpamTPsfTnM)
+ - arrival-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=kYCP-hMIk_mfiM)
+ - arrival-vinyl.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=LPuvtusN0g67TM)
+ - voyage-cd.jpg - [Real Rock and Roll](https://www.google.com/search?q=the+vintage+caravan+album+hd&tbm=isch&ved=2ahUKEwjJm6-llYHoAhXCRxUIHR9VBncQ2-cCegQIABAA&oq=the+vintage+caravan+album+hd&gs_l=img.3...153017.155582..156506...0.0..0.66.588.10......0....1..gws-wiz-img.nX3ie_zRfsg&ei=c81fXomWD8KP1fAPn6qZuAc&bih=937&biw=1920#imgrc=LcI3TRgkP2I8yM)
+ - voyage-vinyl.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=bbYyccKkvV8hPM)
 
 - From music sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/music)
- - [amazon-mp3-logo-transparent.png](https://ya-webdesign.com/imgdownload.html)
- - [apple-music-logo-transparent.png](https://ya-webdesign.com/imgdownload.html)
- - [apple-store-logo-transparent.png](https://ya-webdesign.com/imgdownload.html)
- - [deezer-logo.png](http://pluspng.com/png-111921.html)
- - [google-play-logo-transparent.png](https://ya-webdesign.com/imgdownload.html)
- - [spotify-logo-transparent.png](https://ya-webdesign.com/imgdownload.html)
+ - amazon-mp3-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/amazon-mp3/)
+ - apple-music-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-music/)
+ - apple-store-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-store/)
+ - deezer-logo.png- [Pluspng](http://pluspng.com/png-111921.html)
+ - google-play-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/google-play/)
+ - spotify-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/spotify/)
 
 - From images sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images)
-	- [galaxy-background.jpg](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)
-	- [the-vintage-caravan_brand_logo.png](https://www.google.com/search?q=the+vintage+caravan+brand+logo&tbm=isch&source=univ&sa=X&ved=2ahUKEwiYu9K-l4HoAhUSQ8AKHd4CDm0QsAR6BAgKEAE&biw=1920&bih=937#imgrc=3KyrQ6IbB53TaM)
+	- galaxy-background.jpg - [Pexels](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)
+	- the-vintage-caravan_brand_logo.png - [thevintagecaravan.eu](https://www.google.com/search?q=the+vintage+caravan+brand+logo&tbm=isch&source=univ&sa=X&ved=2ahUKEwiYu9K-l4HoAhUSQ8AKHd4CDm0QsAR6BAgKEAE&biw=1920&bih=937#imgrc=3KyrQ6IbB53TaM)
 
 ### Code <a name="Code"></a>
 

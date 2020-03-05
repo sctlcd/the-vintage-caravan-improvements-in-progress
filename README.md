@@ -7,12 +7,12 @@
 <dd>Already a fan of The Vintage Caravan? You've have found the right place!</dd>
 <dd>You don't know The Vintage Caravan? You are in the right place!</dd>
 
- [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/) is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, no shows near you ask them to play in your city, etc...
+ [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/) is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, etc... No shows near you, ask the band to play in your city!
 
 I've discovered The Vintage Caravan totally by coincidence. My boyfriend and I were in a vintage clothing stores in Malasaña, Madrid's neighbourhood, when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
-We've personally saw them twice in live and they are amazing! There will be more for sure!
+We've personally saw them twice in live and they are amazing! And trust me there will be more for sure!
 <br>
-Go for it!
+So go for it! 
 
 ---
 
@@ -245,7 +245,7 @@ Back to [top](#TableOfContents)
 
 ## Testing <a name="Testing"></a>
 
-Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
+Please find the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
 
 ### Layout responsiveness <a name="Layoutresponsiveness"></a>
 
@@ -366,46 +366,46 @@ My inspiration comes from [The Vintage Caravan](https://www.thevintagecaravan.eu
 Sources of the images used on this site:
 
 - From gallery sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/gallery)
- - TVC_1.jpg - [copyright Gael Mathieu](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519674028084513/?type=3&theater)
- - TVC_33.jpg - [copyright Sven Grosch](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2423379847713932/?type=3&theater)
- - TVC_2.jpg - [copyright Julien Dupeyron](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2559313840787198/?type=3&theater)
- - TVC_5.jpg - [copyright Julien Dupeyron](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972958087951/?type=3&theater)
- - TVC_9.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2937799776271934/?type=3&theater)  
- - TVC_6.jpg - [copyright Tjeerd Derkink](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2781938425191404/?type=3&theater)  
- - TVC_7.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2858176484234264/?type=3&theater)
- - TVC_4.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2744893828895864/?type=3&theater)  
- - TVC_25.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2340217576030160/?type=3&theater)  
- - TVC_13.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2029703040414950/?type=3&theater)  
- - TVC_10.jpg - [copyright Domantas Kvedaras](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/954499534601978/?type=3&theater)
- - TVC_12.jpg -[copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2029702930414961/?type=3&theater)
- - TVC_14.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2184383684946884/?type=3&theater)
- - TVC_18.jpg - [copyright Bjorns photos](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1045500508835213/?type=3&theater)
- - TVC_20.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1231343676917561/?type=3&theater)
- - TVC_15.jpg - [copyright Gael Mathieu](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519673634751219/?type=3&theater)
- - TVC_8.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2866551196730126/?type=3&theater)
- - TVC_30.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407845311129/?type=3&theater)
- - TVC_32.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407991977781/?type=3&theater)
- - TVC_19.jpg - [copyright Burning Moon](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1067927786592485/?type=3&theater)
- - TVC_31.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407971977783/?type=3&theater)
- - TVC_34.jpg - [copyright Renato Jacob](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1253299878055274/?type=3&theater)
- - TVC_27.jpg - [copyright Renato Jacob](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972798087967/?type=3&theater)
- - TVC_23.jpg - [copyright Caro Staley](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1283809088337686/?type=3&theater)
+    - TVC_1.jpg - [copyright Gael Mathieu](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519674028084513/?type=3&theater)
+    - TVC_33.jpg - [copyright Sven Grosch](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2423379847713932/?type=3&theater)
+    - TVC_2.jpg - [copyright Julien Dupeyron](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2559313840787198/?type=3&theater)
+    - TVC_5.jpg - [copyright Julien Dupeyron](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972958087951/?type=3&theater)
+    - TVC_9.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2937799776271934/?type=3&theater)  
+    - TVC_6.jpg - [copyright Tjeerd Derkink](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2781938425191404/?type=3&theater)  
+    - TVC_7.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2858176484234264/?type=3&theater)
+    - TVC_4.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2744893828895864/?type=3&theater)  
+    - TVC_25.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2340217576030160/?type=3&theater)  
+    - TVC_13.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2029703040414950/?type=3&theater)  
+    - TVC_10.jpg - [copyright Domantas Kvedaras](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/954499534601978/?type=3&theater)
+    - TVC_12.jpg -[copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2029702930414961/?type=3&theater)
+    - TVC_14.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2184383684946884/?type=3&theater)
+    - TVC_18.jpg - [copyright Bjorns photos](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1045500508835213/?type=3&theater)
+    - TVC_20.jpg - [copyright The Vintage Caravan](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1231343676917561/?type=3&theater)
+    - TVC_15.jpg - [copyright Gael Mathieu](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519673634751219/?type=3&theater)
+    - TVC_8.jpg - [copyright Fabian Lippke » Fotograf](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2866551196730126/?type=3&theater)
+    - TVC_30.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407845311129/?type=3&theater)
+    - TVC_32.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407991977781/?type=3&theater)
+    - TVC_19.jpg - [copyright Burning Moon](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1067927786592485/?type=3&theater)
+    - TVC_31.jpg - [copyright ELP-Photo](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2747407971977783/?type=3&theater)
+    - TVC_34.jpg - [copyright Renato Jacob](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1253299878055274/?type=3&theater)
+    - TVC_27.jpg - [copyright Renato Jacob](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972798087967/?type=3&theater)
+    - TVC_23.jpg - [copyright Caro Staley](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1283809088337686/?type=3&theater)
 
 - From carousel sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/carousel)
- - gateway-vinyl.jpg - [Ebay](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=N-841vKF900L8M)
- - gateways-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=B21CpamTPsfTnM)
- - arrival-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=kYCP-hMIk_mfiM)
- - arrival-vinyl.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=LPuvtusN0g67TM)
- - voyage-cd.jpg - [Real Rock and Roll](https://www.google.com/search?q=the+vintage+caravan+album+hd&tbm=isch&ved=2ahUKEwjJm6-llYHoAhXCRxUIHR9VBncQ2-cCegQIABAA&oq=the+vintage+caravan+album+hd&gs_l=img.3...153017.155582..156506...0.0..0.66.588.10......0....1..gws-wiz-img.nX3ie_zRfsg&ei=c81fXomWD8KP1fAPn6qZuAc&bih=937&biw=1920#imgrc=LcI3TRgkP2I8yM)
- - voyage-vinyl.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=bbYyccKkvV8hPM)
+    - gateway-vinyl.jpg - [Ebay](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=N-841vKF900L8M)
+    - gateways-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=B21CpamTPsfTnM)
+    - arrival-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=kYCP-hMIk_mfiM)
+    - arrival-vinyl.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=LPuvtusN0g67TM)
+    - voyage-cd.jpg - [Real Rock and Roll](https://www.google.com/search?q=the+vintage+caravan+album+hd&tbm=isch&ved=2ahUKEwjJm6-llYHoAhXCRxUIHR9VBncQ2-cCegQIABAA&oq=the+vintage+caravan+album+hd&gs_l=img.3...153017.155582..156506...0.0..0.66.588.10......0....1..gws-wiz-img.nX3ie_zRfsg&ei=c81fXomWD8KP1fAPn6qZuAc&bih=937&biw=1920#imgrc=LcI3TRgkP2I8yM)
+    - voyage-vinyl.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=bbYyccKkvV8hPM)
 
 - From music sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/music)
- - amazon-mp3-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/amazon-mp3/)
- - apple-music-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-music/)
- - apple-store-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-store/)
- - deezer-logo.png- [Pluspng](http://pluspng.com/png-111921.html)
- - google-play-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/google-play/)
- - spotify-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/spotify/)
+    - amazon-mp3-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/amazon-mp3/)
+    - apple-music-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-music/)
+    - apple-store-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-store/)
+    - deezer-logo.png- [Pluspng](http://pluspng.com/png-111921.html)
+    - google-play-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/google-play/)
+    - spotify-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/spotify/)
 
 - From images sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images)
 	- galaxy-background.jpg - [Pexels](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)

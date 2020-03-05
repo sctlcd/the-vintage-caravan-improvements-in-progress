@@ -1,17 +1,21 @@
+/* @imports */
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
 /*
+ @font-face
  How to add custom fonts to any website credit: https://www.pagecloud.com/blog/how-to-add-custom-fonts-to-any-website
  Dekar Regular font
 */
 @font-face {
     font-family: 'Dekar Regular';
     /* For Internet Explorer */
-    src: url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/Dekar-Regular.eot') ;
+    /* src: url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/Dekar-Regular.eot') ; */
+    src: url('https://sctlcd.github.io/the-vintage-caravan/assets/fonts/Dekar-Regular.eot') ;
     /* For Chrome, Firefox, Safari, Opera */
     src: local('Dekar Regular'),
 	     local('Dekar-Regular'),
-	     url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/dekar-regular-webfont.woff') format('woff');
+	     /* url('https://8000-df4513af-511e-4531-8e4e-36f2b55a677b.ws-eu01.gitpod.io/assets/fonts/dekar-regular-webfont.woff') format('woff'); */
+         url('https://sctlcd.github.io/the-vintage-caravan/assets/fonts/dekar-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

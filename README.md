@@ -1,18 +1,17 @@
 # [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/)
- 
-<img src="https://github.com/sctlcd/the-vintage-caravan/blob/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan - social preview image" width="800">
 
+<img src="https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
 <dl>
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
-<dd>Already a fan of The Vintage Caravan? You've have found the right place!</dd>
-<dd>You don't know The Vintage Caravan? You are in the right place!</dd>
+<dd>Already a fan of The Vintage Caravan? You've found the right place!</dd>
+<dd>Don't know The Vintage Caravan? You're in the good place!</dd>
 
- [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/) is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, etc... No shows near you, ask the band to play in your city!
+ [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/) is the perfect place to discover the band as well as to get information, to listen and buy their albums, to be aware of their gig dates and locations, to know where to buy tickets, to access their merchandise store, to ask the band to play in your city, etc...
 
-I've discovered The Vintage Caravan totally by coincidence. My boyfriend and I were in a vintage clothing stores in Malasaña, Madrid's neighbourhood, when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
-We've personally saw them twice in live and they are amazing! And trust me there will be more for sure!
+I've discovered The Vintage Caravan totally by coincidence. I was in a vintage clothing stores in Malasaña, a musical and artistic Madrid's neighbourhood, with my boyfriend when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
+We already saw them twice in live. They are stunning! And trust me there will be more for sure!
 <br>
-So go for it! 
+Go for it!
 
 ---
 
@@ -31,7 +30,7 @@ So go for it!
 2. [Features](#Features)
 
 	- [Existing Features](#ExistingFeatures)
-		- [Navbar](#Navbar)
+		- [Navigation bar](#Navigationbar)
 		- [Footer](#Footer)
 		- [Home page](#Homepage)
 		- [Music page](#Musicpage)
@@ -108,12 +107,12 @@ The purpose of this website is to give the opportunity to people to discover the
 
 When it's come to The Vintage Caravan, I first think about **Rock'n Roll music** and **Island** so this is why I have designed my entire project around the **starry night sky** with splendid **Northern Lights** idea and dark colors.
 
-I wanted to place a particular emphasis on the video ['Reset'](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) which I find meaningful, energizing and full of humour. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
+I wanted to place a particular emphasis on the video [**'Reset'**](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) which I find meaningful, energizing and full of humour. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
 *'We proudly present the new video for 'Reset'. The video was made for us by Icelandic production company Obbosí. We've always been fans of fun music videos and we don't like to take ourselves too seriously when it comes to making videos. We had a blast making this one and we're super happy with how it turned out. Hope you like it as much as we do!' ~ Commented bass player Alex on the release - [Nuclear Blast](https://www.nuclearblast.de/en/label/music/band/news/details/5573791.3159218.the-vintage-caravan-raquo-gateways-laquo-out-now.html)*
 
 About the "Music" page, I was looking for a way to put together the 3 containers "Album details", " Buy this album", "Listen this album" in a harmonious and aesthetic manner. I didn't like the 3 containers, each one in 1 column, aligned on the same baseline. The idea of the 3 containers with a staggered positioning in 2 columns but harmoniously centered with each others popped up by trying various positionings in Balsamiq Wireframes.
 
-I picked the green color, reminiscent of the **Northern Lights** color in the background, when social media links are hovered in the footer. I used this green color when the upcoming link is hovered in the "Shows" page and to focus on the selected input field in the form or the "Contact" page as well.
+I picked the [green color](https://placehold.it/15/398339/398339), reminiscent of the [Aurora Borealis color](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/) in the background, when social media links are hovered in the footer. I used this green color as well when the upcoming link is hovered in the "Shows" page and to give a subtle and harmonious focus on the selected input field in the form of the "Contact" page.
 
 #### Framework <a name="Framework"></a>
 Bootstrap 4 - Because I've used Bootstrap years ago and I liked it and because it meets the project requirements "*Incorporate a main navigation menu and structured layout*" I've decided to build this website with Bootstrap 4.
@@ -159,16 +158,16 @@ Back to [top](#TableOfContents)
 
 ### Existing Features <a name="ExistingFeatures"></a>
 
-All pages across the website include the same `<header`, `<nav>` and `<footer>`.
+All pages across the website include the same `<nav>` and `<footer>`.
 
-##### Navbar <a name="Navbar"></a>
+##### Navigation bar <a name="Navigationbar"></a>
 
 - The navigation menu is fixed on the top thus facilitating the access of the navigation from anywhere on the website without having to scroll.
 - The *active* page is highlighted with the `class="active"` attribute which will changes the appearance of the page name in the navigation menu. Hence indicating the user the current page they are visiting.
-- Band's logo link reload the Home page.
-- Links to all the other pages allows the user to navigate smoothly between pages.
+- Clicking on the Band's logo link reloads the Home page.
+- Links to all the other pages allow the user to navigate smoothly between pages.
 - Each menu item is linked to the relevant page with the same name.
-- In mobile view the navbar is collapsed allowing the users more space on the screen. The users can click on the “hamburger” icon and still receive the full menu as a drop down function.
+- In mobile view the navigation bar is collapsed allowing the users more space on the screen. The users can click on the collapsed menu icon and still receive the full menu as a drop down function.
 
 ##### Footer <a name="Footer"></a>
 
@@ -184,12 +183,12 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 ##### [Music page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/music.html) <a name="Musicpage"></a>
 
 - The "Music" page showcases each album releases offering access to the following platforms :
- - [Apple Store](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
- - [Amazon mp3](https://www.amazon.co.uk/The-Vintage-Caravan/e/B00HEQCWFE/ref=ep_artist_tab_glance?_encoding=UTF8&sn=d)
- - [Google Play](https://play.google.com/music/preview/Aqsviqbmly5ttb7hp2537xntdva?u=0#)
- - [Deezer](https://www.deezer.com/en/artist/5347087/radio?autoplay=true)
- - [Spotify](https://open.spotify.com/artist/61MH29rMIyOfuK7KXQznzX?autoplay=true&v=A)
- - [Apple Music](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
+    - [Apple Store](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
+    - [Amazon mp3](https://www.amazon.co.uk/The-Vintage-Caravan/e/B00HEQCWFE/ref=ep_artist_tab_glance?_encoding=UTF8&sn=d)
+    - [Google Play](https://play.google.com/music/preview/Aqsviqbmly5ttb7hp2537xntdva?u=0#)
+    - [Deezer](https://www.deezer.com/en/artist/5347087/radio?autoplay=true)
+    - [Spotify](https://open.spotify.com/artist/61MH29rMIyOfuK7KXQznzX?autoplay=true&v=A)
+    - [Apple Music](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
 - Each platforms links open in a new browser tab.
 - The 3 containers "Album details", "Buy this album", "Listen this album" are displayed in 2 columns on medium, large and extra large devices and in 1 column in small and extra small devices.
 
@@ -245,7 +244,7 @@ Back to [top](#TableOfContents)
 
 ## Testing <a name="Testing"></a>
 
-Please find the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
+Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
 
 ### Layout responsiveness <a name="Layoutresponsiveness"></a>
 

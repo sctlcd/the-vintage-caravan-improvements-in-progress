@@ -368,7 +368,7 @@ My inspiration comes from [The Vintage Caravan](https://www.thevintagecaravan.eu
 
 Sources of the images used on this site:
 
-- From gallery sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/gallery)
+- From gallery sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images/gallery)
     - TVC_1.jpg - [copyright Gael Mathieu](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519674028084513/?type=3&theater)
     - TVC_33.jpg - [copyright Sven Grosch](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2423379847713932/?type=3&theater)
     - TVC_2.jpg - [copyright Julien Dupeyron](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2559313840787198/?type=3&theater)
@@ -394,7 +394,7 @@ Sources of the images used on this site:
     - TVC_27.jpg - [copyright Renato Jacob](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972798087967/?type=3&theater)
     - TVC_23.jpg - [copyright Caro Staley](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1283809088337686/?type=3&theater)
 
-- From carousel sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/carousel)
+- From carousel sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images/carousel)
     - gateway-vinyl.jpg - [Ebay](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=N-841vKF900L8M)
     - gateways-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=B21CpamTPsfTnM)
     - arrival-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=kYCP-hMIk_mfiM)
@@ -402,7 +402,7 @@ Sources of the images used on this site:
     - voyage-cd.jpg - [Real Rock and Roll](https://www.google.com/search?q=the+vintage+caravan+album+hd&tbm=isch&ved=2ahUKEwjJm6-llYHoAhXCRxUIHR9VBncQ2-cCegQIABAA&oq=the+vintage+caravan+album+hd&gs_l=img.3...153017.155582..156506...0.0..0.66.588.10......0....1..gws-wiz-img.nX3ie_zRfsg&ei=c81fXomWD8KP1fAPn6qZuAc&bih=937&biw=1920#imgrc=LcI3TRgkP2I8yM)
     - voyage-vinyl.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=bbYyccKkvV8hPM)
 
-- From music sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images/music)
+- From music sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images/music)
     - amazon-mp3-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/amazon-mp3/)
     - apple-music-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-music/)
     - apple-store-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-store/)
@@ -410,7 +410,7 @@ Sources of the images used on this site:
     - google-play-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/google-play/)
     - spotify-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/spotify/)
 
-- From images sub-directory - [Github](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/images)
+- From images sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images)
 	- galaxy-background.jpg - [Pexels](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)
 	- the-vintage-caravan_brand_logo.png - [thevintagecaravan.eu](https://www.google.com/search?q=the+vintage+caravan+brand+logo&tbm=isch&source=univ&sa=X&ved=2ahUKEwiYu9K-l4HoAhUSQ8AKHd4CDm0QsAR6BAgKEAE&biw=1920&bih=937#imgrc=3KyrQ6IbB53TaM)
 

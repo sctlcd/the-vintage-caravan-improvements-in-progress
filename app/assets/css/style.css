@@ -210,7 +210,8 @@ h6 {
 }
 
 .header-container {
-    margin: 120px 0 0 0; 
+    /* margin: 120px 0 0 0;  */
+    margin: 120px auto 0 auto;
 }
 
 /* About */
@@ -323,11 +324,6 @@ h6 {
 .buy-container .buy-text, .listen-container .listen-text {
     font-family: 'Space+Mono', sans-serif;
     font-weight: 400;
-}
-
-.album-container {
-    padding-right: 80px;
-    padding-left: 80px;
 }
 
 .album-container .album-card {
@@ -461,7 +457,7 @@ h6 {
 }
 
 .shows-page-container {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 /*---------------------------------------------- Photos page ----------------*/
@@ -566,6 +562,7 @@ h6 {
 @media screen and (max-width: 992px){
     
     /* Navbar */
+
     .navbar-nav {
         height: 100vh;
         margin-top: 50px;
@@ -580,6 +577,7 @@ h6 {
     }
 
     /* Home page */
+    
     .about-container .about-text {
         font-size: 14px;
     }
@@ -592,14 +590,17 @@ h6 {
     max-width: 60%;
     }
 
-    /* Contact Page */
-    .contact-page-container .col-12 {
-        flex: 0 0 100%;
+    /* Music Page */
+
+    .music-album-container {
         max-width: 100%;
     }
 
-    .shows-page-container {
-        max-width: 100%;
+    /* Contact Page */
+
+    .contact-page-container .col-12 {
+        flex: 0 0 100%;
+        max-width: 80%;
     }
 }
 
@@ -649,13 +650,19 @@ h6 {
 
     /* Shows page */
 
-    /* Responsive display of the table row into multiple line credit: https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206 */ 
+    /* 
+    * Responsive display of the table row into multiple line 
+    * credit: https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206
+    */
     .item-show-table tr {    
         display: table;  
         width:100%;    
     }
 
-    /* Responsive display of the table row into multiple line credit: https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206 */
+    /* 
+    *Responsive display of the table row into multiple line 
+    * credit: https://stackoverflow.com/questions/25405105/break-a-table-row-into-multiple-line-responsive-layout/25406206
+    */
     .item-show-table td {    
         display: table-row; 
     }           
@@ -690,3 +697,4 @@ h6 {
         margin: 80px 0 80px 0;
     }
 }
+ 

@@ -1,18 +1,17 @@
 # [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/)
- 
-<img src="https://github.com/sctlcd/the-vintage-caravan/blob/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan - social preview image" width="800">
 
+<img src="https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
 <dl>
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
-<dd>Already a fan of The Vintage Caravan? You've have found the right place!</dd>
-<dd>You don't know The Vintage Caravan? You are in the right place!</dd>
+<dd>Already a fan of The Vintage Caravan? You've found the right place!</dd>
+<dd>Don't know The Vintage Caravan? You're in the good place!</dd>
 
- [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/) is the perfect place to discover the band as well as to get information, listen and buy their albums, be aware of their gig dates, locations and where to buy tickets, access to their merchandise store, etc... No shows near you, ask the band to play in your city!
+ [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/) is the perfect place to discover the band as well as to get information, to listen and buy their albums, to be aware of their gig dates and locations, to know where to buy tickets, to access their merchandise store, to ask the band to play in your city, etc...
 
-I've discovered The Vintage Caravan totally by coincidence. My boyfriend and I were in a vintage clothing stores in Malasaña, Madrid's neighbourhood, when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
-We've personally saw them twice in live and they are amazing! And trust me there will be more for sure!
+I've discovered The Vintage Caravan totally by coincidence. I was in a vintage clothing stores in Malasaña, a musical and artistic Madrid's neighbourhood, with my boyfriend when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
+We already saw them twice in live. And trust me there will be more for sure! They are stunning!
 <br>
-So go for it! 
+Go for it!
 
 ---
 
@@ -31,7 +30,7 @@ So go for it!
 2. [Features](#Features)
 
 	- [Existing Features](#ExistingFeatures)
-		- [Navbar](#Navbar)
+		- [Navigation bar](#Navigationbar)
 		- [Footer](#Footer)
 		- [Home page](#Homepage)
 		- [Music page](#Musicpage)
@@ -71,8 +70,8 @@ So go for it!
 
 This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies, the **User-Centric Front-End Development** module. The objective of this milestone project is to "*create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.*"
 
-I have decided to create a responsive website using HTML, CSS and Bootstrap 4 while having the opportunity to spread the world about this rock'n roll band full of humour with a bright future!
-The purpose of this website is to give the opportunity to people to discover the band and to offer a centralised access to the band's information: history, discography, photos, listen and buy albums on various platforms, event dates and locations, merchandise store, contact the band, etc.
+I have decided to create a website using HTML, CSS and Bootstrap 4 while having the opportunity to spread the world about this rock'n roll band full of humour with a bright future!
+The purpose of this website is to give the opportunity to people to discover the band and to offer a centralised access to the band's information: history, discography, photos, listen and buy albums on various platforms, event dates and locations, their merchandise store, contact the band, etc.
 
 ### User Stories <a name="UserStories"></a>
 
@@ -80,23 +79,23 @@ The purpose of this website is to give the opportunity to people to discover the
 
 - [x] view the site from **any device** (mobile, tablet, desktop).
 - [X] view the **embed YouTube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0)** on the **top of the navigation menu** on **all devices**.
-- [x] view the **YouTube standard enabled options bar** when I **hover** the embed video.
+- [x] view the **YouTube standard options bar** when I **hover** the embed video.
 - [x] **access of the navigation menu** from anywhere on the website **without having to scroll**.
 - [x] view the **band's logo as a link** on the top left corner of the Home page.
 - [x] **reload the Home page** when I click on the **band's logo link**.
 - [X] click on each **menu item links** and **navigate** to the page with the same name.
 - [x] **scroll through** the album pictures within the **discography carousel**.
 - [X] **open** the selected product from the official merchandise store website in a **new browser tab** when I **click on each album picture links** within the discography carousel.
-- [x] **open** the music platform link of the chosen album in a **new browser tab** when I **click on each music platform links** within the music page.  
-- [x] **open** the selected photo link in a **new browser tab** when I **click on each photo links** within the photo page
-- [x] **open** the selected 'Bandsintown'* event link in a **new browser tab** when I **click on the event date link and the venue event link** within the event in Shows page.
-- [x] view the **upcoming event list** when I **click on the upcoming link**
-- [x] view the **archive link disable** in the Shows pages.
-- [x] **open** the band's 'Bandsintown'* home page in a **new browser tab** when I **click on the "No shows near you? Ask to play in your city!" button** in the Shows pages.
-- [x] **open** the band's official merchandise store website in a **new browser tab** when I **click on the Show menu item** from the navigation menu.
+- [x] **open** the music platform link of the chosen album in a **new browser tab** when I **click on each music platform links** in the music page.  
+- [x] **open** the selected photo link in a **new browser tab** when I **click on each photo links** in the photo page
+- [x] **open** the selected band's 'Bandsintown'* event link in a **new browser tab** when I **click on the event date link and the venue event link** within the event in Shows page.
+- [x] view the **upcoming event list** when I **click on the upcoming link** in Shows page.
+- [x] view the **archive link disable** in the Shows page.
+- [x] **open** the band's 'Bandsintown'* home page in a **new browser tab** when I **click on the "No shows near you? Ask to play in your city!" button** in the Shows page.
+- [x] **open** the band's official merchandise store website in a **new browser tab** when I **click on the Show menu item** in the navigation menu.
 - [x] view a **contact form with first name, last name, email, message labels and text inputs and a submit button** in the Contact page.
 - [x] view the **white social media icon links** (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer.
-- [x] view the **green social media icon links** (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer when I **hover** each icons .
+- [x] view the **green social media icon links** (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer when I **hover** each icon.
 - [x] **open** the band's social media home page in a **new browser tab** when I **click on the corresponding social media icon link**.
 - [x] view The Vintage Caravan Copyright mention in the footer.
 <br>
@@ -108,12 +107,12 @@ The purpose of this website is to give the opportunity to people to discover the
 
 When it's come to The Vintage Caravan, I first think about **Rock'n Roll music** and **Island** so this is why I have designed my entire project around the **starry night sky** with splendid **Northern Lights** idea and dark colors.
 
-I wanted to place a particular emphasis on the video ['Reset'](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) which I find meaningful, energizing and full of humour. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
+I wanted to place a particular emphasis on the video [**'Reset'**](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) which I find meaningful, energizing and full of humour. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
 *'We proudly present the new video for 'Reset'. The video was made for us by Icelandic production company Obbosí. We've always been fans of fun music videos and we don't like to take ourselves too seriously when it comes to making videos. We had a blast making this one and we're super happy with how it turned out. Hope you like it as much as we do!' ~ Commented bass player Alex on the release - [Nuclear Blast](https://www.nuclearblast.de/en/label/music/band/news/details/5573791.3159218.the-vintage-caravan-raquo-gateways-laquo-out-now.html)*
 
 About the "Music" page, I was looking for a way to put together the 3 containers "Album details", " Buy this album", "Listen this album" in a harmonious and aesthetic manner. I didn't like the 3 containers, each one in 1 column, aligned on the same baseline. The idea of the 3 containers with a staggered positioning in 2 columns but harmoniously centered with each others popped up by trying various positionings in Balsamiq Wireframes.
 
-I picked the green color, reminiscent of the **Northern Lights** color in the background, when social media links are hovered in the footer. I used this green color when the upcoming link is hovered in the "Shows" page and to focus on the selected input field in the form or the "Contact" page as well.
+I picked the [green color](https://placehold.it/15/398339/398339), reminiscent of the [Aurora Borealis color](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/) in the background, when social media links are hovered in the footer. I used this green color as well when the upcoming link is hovered in the "Shows" page and to give a subtle and harmonious focus on the selected input field in the form of the "Contact" page.
 
 #### Framework <a name="Framework"></a>
 Bootstrap 4 - Because I've used Bootstrap years ago and I liked it and because it meets the project requirements "*Incorporate a main navigation menu and structured layout*" I've decided to build this website with Bootstrap 4.
@@ -149,7 +148,7 @@ I have used [Balsamiq Wireframes](https://balsamiq.com/wireframes/) for my wiref
 - Code Institute have provided all students a free licence until end of 2020. I got to use this software a few year ago and I am pretty happy to get the chance to use it again.
 - The simplicity, rapidity and ease of use by focusing on structure and content.
 
-My wireframes for this project can be found [here](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/app/wireframes) in the wireframes sub-directory.
+My wireframes for this project can be found [here](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes) in the wireframes sub-directory.
 
 Back to [top](#TableOfContents)
 
@@ -159,37 +158,37 @@ Back to [top](#TableOfContents)
 
 ### Existing Features <a name="ExistingFeatures"></a>
 
-All pages across the website include the same `<header`, `<nav>` and `<footer>`.
+All pages across the website include the same `<nav>` and `<footer>`.
 
-##### Navbar <a name="Navbar"></a>
+##### Navigation bar <a name="Navigationbar"></a>
 
 - The navigation menu is fixed on the top thus facilitating the access of the navigation from anywhere on the website without having to scroll.
-- The *active* page is highlighted with the `class="active"` attribute which will changes the appearance of the page name in the navigation menu. Hence indicating the user the current page they are visiting.
-- Band's logo link reload the Home page.
-- Links to all the other pages allows the user to navigate smoothly between pages.
+- The *active* page is highlighted with the `class="active"` attribute which will changes the appearance of the page name in the navigation menu. Hence indicating the users the current page they are visiting.
+- Clicking on the band's logo link reloads the Home page.
+- Links to all the other pages allow the user to navigate smoothly between pages.
 - Each menu item is linked to the relevant page with the same name.
-- In mobile view the navbar is collapsed allowing the users more space on the screen. The users can click on the “hamburger” icon and still receive the full menu as a drop down function.
+- In mobile view the navigation bar is collapsed allowing the users more space on the screen. The users can click on the collapsed menu icon and still receive the full menu as a drop down function.
 
 ##### Footer <a name="Footer"></a>
 
-- Social media links allow the user to click on each individual icon and a new tab opens with the corresponding social media band's home page.
+- Social media links allow the user to click on each individual icon and then the band's social media home page opens in a new browser tab.
 - The Vintage Caravan copyright mention is displayed (and my name).
 
 ##### [Home page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/index.html) <a name="Homepage"></a>
 
-- The primary focus of the "Home" page is the display of the embed Youtube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0) loaded in mute and in loop by default in all devices. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new tab, etc..   
+- The primary focus of the "Home" page is the display of the embed Youtube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0) loaded in mute and in loop by default in all devices. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new browser tab, etc..   
 - It details the band's history in an "About" section.
 - The last section displays a carousel of their discography offering the possibility to click on each album/vinyl links and then opening the selected product from the official merchandise store in a new browser tab.
 
 ##### [Music page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/music.html) <a name="Musicpage"></a>
 
 - The "Music" page showcases each album releases offering access to the following platforms :
- - [Apple Store](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
- - [Amazon mp3](https://www.amazon.co.uk/The-Vintage-Caravan/e/B00HEQCWFE/ref=ep_artist_tab_glance?_encoding=UTF8&sn=d)
- - [Google Play](https://play.google.com/music/preview/Aqsviqbmly5ttb7hp2537xntdva?u=0#)
- - [Deezer](https://www.deezer.com/en/artist/5347087/radio?autoplay=true)
- - [Spotify](https://open.spotify.com/artist/61MH29rMIyOfuK7KXQznzX?autoplay=true&v=A)
- - [Apple Music](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
+    - [Apple Store](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
+    - [Amazon mp3](https://www.amazon.co.uk/The-Vintage-Caravan/e/B00HEQCWFE/ref=ep_artist_tab_glance?_encoding=UTF8&sn=d)
+    - [Google Play](https://play.google.com/music/preview/Aqsviqbmly5ttb7hp2537xntdva?u=0#)
+    - [Deezer](https://www.deezer.com/en/artist/5347087/radio?autoplay=true)
+    - [Spotify](https://open.spotify.com/artist/61MH29rMIyOfuK7KXQznzX?autoplay=true&v=A)
+    - [Apple Music](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
 - Each platforms links open in a new browser tab.
 - The 3 containers "Album details", "Buy this album", "Listen this album" are displayed in 2 columns on medium, large and extra large devices and in 1 column in small and extra small devices.
 
@@ -203,7 +202,7 @@ All pages across the website include the same `<header`, `<nav>` and `<footer>`.
 
 - The "Shows" page displays the upcoming events list with dates and locations.
 - Clicking on an event opens, in a new browser tab, the [''Bandsintown''](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) page of the selected event offering to the user various possibilities (buying tickets, find hotels and vacation rental near the location, setting up an event notification, etc..).
-- A button at the bottom of the event list gives the user the chance to ask the band to play in their current city via ['Bandsintown'](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) webpage opening in a new browser tab.
+- A button at the bottom of the upcoming event list gives the user the chance to ask the band to play in their current city via ['Bandsintown'](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) webpage opening in a new browser tab.
 - The archive link is currently disable.
 
 ##### Store page <a name="Storepage"></a>
@@ -245,7 +244,7 @@ Back to [top](#TableOfContents)
 
 ## Testing <a name="Testing"></a>
 
-Please find the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
+Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
 
 ### Layout responsiveness <a name="Layoutresponsiveness"></a>
 
@@ -290,7 +289,7 @@ I tested the website across the 6 main browsers in both desktop and mobile confi
 - Chrome v.80.0
 - Edge v.44
 - Firefox v.73.0.1
-- Safari v.5.1.7 on Windows 10
+- Safari v.5.1.7 for Windows 10
 - Opera v.67.0
 - Internet Explorer v.11
 
@@ -314,13 +313,17 @@ For testing this website on the latest version of Safari, I will have to install
 
 **HTML**
 - [W3C HTML Validator](https://validator.w3.org/)
+    - No errors
 
 **CSS**
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - No errors
 
 ### Known Issues <a name="KnownIssues"></a>
 
-I've notice some refresh issues when going from desktop to mobile while I was testing. Opening the hamburger menu and selecting the same page or another page display the page correctly.  
+- I've noticed some page refresh issues when going from desktop to mobile (or mobile to mobile with the developer tools), specially in "Home" page and "Music" page. Opening the collapsed menu and selecting a page displays the page correctly. If the collapsed menu icon is not visible click on the band's logo on the top left corner then the "Home" page should be successfully displayed.  
+
+- Opening the photo links from "Photo" page in a new browser has poor performances. It has to be improved in the future.
 
 Back to [top](#TableOfContents)
 
@@ -345,7 +348,7 @@ Back to [top](#TableOfContents)
 4.	Once you have chose your desired option, then click the copy icon next to the URL.
 5.	Open Git Bash.
 6.	Ensure you are in the correct directory which you want to copy the code into. If not, change the directory.
-7.	In the terminal, write the    
+7.	In the terminal, write  
 			$ git clone https://github.com/sctlcd/the-vintage-caravan.git
 8.	Press the enter button and your clone will be created.	 
 

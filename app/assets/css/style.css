@@ -1,4 +1,3 @@
-/* @imports */
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
 /*
@@ -31,7 +30,7 @@ body {
     letter-spacing: 2px;
 }
 
-/* --------------------------------------------- Special padding/margins/text/block-divider ---------------*/
+/* --------------------------------------------- Special padding/margins/text/block-divider/color ---------------*/
 
 h1,
 h2,
@@ -51,6 +50,17 @@ h6 {
     height: 4px;
     border: 0;
     background-color: rgba(255, 255, 255, 0.65);
+}
+
+.btn-dark {
+    background-color:  #14171b;
+    border-color:  #14171b;
+    color: #fafafa;
+}
+
+.btn-dark:hover {
+    background-color: #495057;
+    border-color:  #495057;
 }
 
 /*---------------------------------------------- Header - Navbar ----------------*/
@@ -373,10 +383,13 @@ h6 {
     margin-bottom: 0;
 }
 
-.table-dark, .table-dark td, .table-dark th, .table-dark thead th {
+.table-dark {
     border-color: #000000;
-    background-color: #000000;
-    color: #fafafa;
+    background-color: #000000; 
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+    border-color: #000000;
 }
 
 .item-show {
@@ -437,17 +450,7 @@ h6 {
 .concert-request-button .btn-dark {
     display: block;
     width: 100%;
-    color: #fafafa;
-    background-color:  #14171b;
-    border-color:  #14171b;
     margin-bottom: 170px;
-    
-}
-
-.concert-request-button .btn-dark:hover {
-    color: #fafafa;
-    background-color: #495057;
-    border-color:  #495057;
 }
 
 .shows-request-container {
@@ -523,16 +526,7 @@ h6 {
 }
 
 .form-group .btn-dark {
-    color: #fafafa;
-    background-color:  #14171b;
-    border-color:  #14171b;
     margin-top: 20px;
-}
-
-.form-group .btn-dark:hover {
-    color: #fafafa;
-    background-color: #495057;
-    border-color:  #495057;
 }
 
 .form-group {

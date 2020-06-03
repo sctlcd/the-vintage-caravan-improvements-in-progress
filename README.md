@@ -176,7 +176,7 @@ All pages across the website include the same `<nav>` and `<footer>`.
 - Social media links allow the user to click on each individual icon and then the band's social media home page opens in a new browser tab.
 - The Vintage Caravan copyright mention is displayed (and my name).
 
-##### [Home page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/app/wireframes/01-Home_page.png) <a name="Homepage"></a>
+##### [Home page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/index.html) <a name="Homepage"></a>
 
 - The primary focus of the "Home" page is the display of the embed Youtube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0) in all devices. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new browser tab, etc..   
 - It details the band's history in an "About" section.

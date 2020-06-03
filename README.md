@@ -33,9 +33,11 @@ Go for it!
 		- [Navigation bar](#Navigationbar)
 		- [Footer](#Footer)
 		- [Home page](#Homepage)
-		- [Music page](#Musicpage)
+    - [Discography page](#Discographypage)
+	 	- [Music page](#Musicpage)
 		- [Photos page](#Photospage)
 		- [Shows page](#Showspage)
+    - [Videos page](#Videospage)
 		- [Store page](#Storepage)
 		- [Contact page](#Contactpage)
 	- [Features Left to Implement](#FeaturesLeftToImplement)
@@ -93,7 +95,7 @@ The purpose of this website is to give the opportunity to people to discover the
 - [x] view the **archive link disable** in the Shows page.
 - [x] **open** the band's 'Bandsintown'* home page in a **new browser tab** when I **click on the "No shows near you? Ask to play in your city!" button** in the Shows page.
 - [x] **open** the band's official merchandise store website in a **new browser tab** when I **click on the Show menu item** in the navigation menu.
-- [x] view a **contact form with first name, last name, email, message labels and text inputs and a submit button** in the Contact page.
+- [x] view a **contact form with name, email, message and a submit button** in the Contact page.
 - [x] view the **white social media icon links** (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer.
 - [x] view the **green social media icon links** (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer when I **hover** each icon.
 - [x] **open** the band's social media home page in a **new browser tab** when I **click on the corresponding social media icon link**.
@@ -145,7 +147,7 @@ In keeping with the **starry night sky** with splendid **Northern Lights** conce
 ### Wireframes <a name="Wireframes"></a>
 
 I have used [Balsamiq Wireframes](https://balsamiq.com/wireframes/) for my wireframes because:
-- Code Institute have provided all students a free licence until end of 2020. I got to use this software a few year ago and I am pretty happy to get the chance to use it again.
+- Code Institute have provided all students a free licence until end of 2020. I got to use this software a few years ago and I am pretty happy to get the chance to use it again.
 - The simplicity, rapidity and ease of use by focusing on structure and content.
 
 My wireframes for this project can be found [here](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes) in the wireframes sub-directory.
@@ -176,9 +178,12 @@ All pages across the website include the same `<nav>` and `<footer>`.
 
 ##### [Home page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/index.html) <a name="Homepage"></a>
 
-- The primary focus of the "Home" page is the display of the embed Youtube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0) loaded in mute and in loop by default in all devices. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new browser tab, etc..   
+- The primary focus of the "Home" page is the display of the embed Youtube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0) in all devices. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new browser tab, etc..   
 - It details the band's history in an "About" section.
-- The last section displays a carousel of their discography offering the possibility to click on each album/vinyl links and then opening the selected product from the official merchandise store in a new browser tab.
+
+##### [Discography page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/discography.html) <a name="Discographypage"></a>
+
+- It displays a carousel of their discography offering the possibility to click on each album/vinyl links and then opening the selected product from the official merchandise store in a new browser tab.
 
 ##### [Music page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/music.html) <a name="Musicpage"></a>
 
@@ -198,6 +203,10 @@ All pages across the website include the same `<nav>` and `<footer>`.
 - A copyright mention is displayed below each pictures.
 - The "Photos" page displays pictures of the band in 3 columns on large and extra large devices, in 2 columns on medium devices and in 1 column on extra small and small devices.
 
+##### [Videos page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/videos.html) <a name="Videospage"></a>
+
+- It displays some videos of their performances. The standard YouTube features are available.  
+
 ##### [Shows page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/shows.html) <a name="Showspage"></a>
 
 - The "Shows" page displays the upcoming events list with dates and locations.
@@ -207,17 +216,16 @@ All pages across the website include the same `<nav>` and `<footer>`.
 
 ##### Store page <a name="Storepage"></a>
 
-- The "Store" page opens [The Vintage Caravan official merchandise store](https://www.merchplanet.com/vintagecaravan/) website in a new browser tab.
+- The "Store" page opens [The Vintage Caravan official merchandise store](https://www.lo-fi-merchandise.com/band/the-vintage-caravan/?v=d2cb7bbc0d23) website in a new browser tab.
 
 ##### [Contact page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/contact.html) <a name="Contactpage"></a>
 
-- The "Contact" page offers the possibility to send a message to the band.
-- The contact form is composed of a first name, a last name, an email address, a message labels and text inputs and a submit button.
+- The "Contact" page offers the possibility to send a message to the band using EmailJS.
+- The contact form is composed of a name, an email address, a message and a submit button.
 
 ### Features Left to Implement <a name="FeaturesLeftToImplement"></a>
- - The Vintage Caravan's videos page.
  - Past event list by clicking on archive link (currently disable) in the "Shows" page.
- - Server side of the Contact form.
+ - Server side of the Contact form.(to be defined)
  - Add a newsletter subscription feature on Home page or on a new page. (to be defined)
 
 Back to [top](#TableOfContents)
@@ -237,6 +245,7 @@ Back to [top](#TableOfContents)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Used as the base for markup text.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Used as the base for cascading styles.
 - [Bootstrap](https://getbootstrap.com/) - Used for responsive, mobile first projects design
+- [Javascript](https://www.javascript.com/) - Used for sending emails with EmailJS
 
 Back to [top](#TableOfContents)
 
@@ -245,6 +254,32 @@ Back to [top](#TableOfContents)
 ## Testing <a name="Testing"></a>
 
 Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
+
+### User story validation <a name="Userstoryvalidation"></a>
+
+|  | Galaxy S5 | Pixel | Pixel 2 XL |iPhone 6/7/8 | iPhone 6/7/8 Plus | iPhone X | iPad | iPad Pro | Desktop 1024px | Desktop >1200px |
+| :--- | :--- | :---| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| view the site from any device (mobile, tablet, desktop) | Pass | - | - | - | - | - | - | - | - | - |
+| view the embed YouTube video 'Reset' on the top of the navigation menu on all devices | - | Pass | - | - | - | - | - | - | - | - |
+| view the YouTube standard options bar when I hover the embed video | - | - | Pass | - | - | - | - | - | - | - |
+| access of the navigation menu from anywhere on the website without having to scroll | - | - | - | Pass | - | - | - | - | - | - |
+| view the band's logo as a link on the top left corner of the Home page | - | - | - | - | Pass | - | - | - | - | - |
+| reload the Home page when I click on the band's logo link | - | - | - | - | - | Pass | - | - | - | - |
+| click on each menu item links and navigate to the page with the same name | - | - | - | - | - | - | Pass | - | - | - |
+| scroll through the album pictures within the discography carousel | - | - | - | - | - | - | - | Pass | - | - |
+| open the selected product from the official merchandise store website in a new browser tab when I click on each album picture links within the discography carousel | - | - | - | - | - | - | - | - | Pass | - |
+| open the music platform link of the chosen album in a new browser tab when I click on each music platform links in the music page | - | - | - | - | - | - | - | - | - | Pass |
+| open the selected photo link in a new browser tab when I click on each photo links in the photo page | Pass | - | - | - | - | - | - | - | - | - |
+| open the selected band's 'Bandsintown' event link in a new browser tab when I click on the event date link and the venue event link within the event in Shows page | - | Pass | - | - | - | - | - | - | - | - |
+| view the upcoming event list when I click on the upcoming link in Shows page | - | - | Pass | - | - | - | - | - | - | - |
+| view the archive link disable in the Shows page | - | - | - | Pass | - | - | - | - | - | - |
+| open the band's 'Bandsintown' home page in a new browser tab when I click on the "No shows near you? Ask to play in your city!" button in the Shows page | - | - | - | - | Pass | - | - | - | - | - |
+| open the band's official merchandise store website in a new browser tab when I click on the Show menu item in the navigation menu | - | - | - | - | - | Pass | - | - | - | - |
+| view a contact form with first name, last name, email, message labels and text inputs and a submit button in the Contact page | - | - | - | - | - | - | Pass | - | - | - |
+| view the white social media icon links (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer | - | - | - | - | - | - | - | Pass | - | - |
+| view the green social media icon links (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer when I hover each icon | - | - | - | - | - | - | - | - | Pass | - |
+| open the band's social media home page in a new browser tab when I click on the corresponding social media icon link | - | - | - | - | - | - | - | - | - | Pass |
+| view The Vintage Caravan Copyright mention in the footer | Pass | - | - | - | - | - | - | - | - | - |
 
 ### Layout responsiveness <a name="Layoutresponsiveness"></a>
 
@@ -258,12 +293,22 @@ Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-car
 | *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+|**discography.html** |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | **music.html** |
 | *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | **photos.html** |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| **videos.html** |
 | *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
@@ -286,11 +331,11 @@ Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-car
 
 I tested the website across the 6 main browsers in both desktop and mobile configuration to ensure a large number of users can use it successfully.
 
-- Chrome v.80.0
+- Chrome v.81.0
 - Edge v.44
-- Firefox v.73.0.1
+- Firefox v.75.0
 - Safari v.5.1.7 for Windows 10
-- Opera v.67.0
+- Opera v.68.0
 - Internet Explorer v.11
 
 | All pages | Chrome | Edge | Firefox | Safari | Opera | IE |
@@ -338,18 +383,18 @@ Back to [top](#TableOfContents)
  3.	Find the “settings” tab and click on it.
  4.	Scroll down until the “GitHub Pages” sections.
  5.	Under the “source” drop down menu, choose a branch. I chose “master branch” and select it.
- 6.	You will then see a URL to your live webpage. In my case the URL is https://sctlcd.github.io/the-vintage-caravan/
+ 6.	You will then see a URL to your live webpage. In my case the URL is https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress
 
 ### Deployment – Run Locally <a name="Deploymentrunlocally"></a>
 
-1.	Again, click on the repository called [the-vintage-caravan](https://github.com/sctlcd/the-vintage-caravan)
+1.	Again, click on the repository called [the-vintage-caravan-improvements-in-progress](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress)
 2.	Along the top bar, find the “clone or download” button.
 3.	Here you have the option to clone by HTTPS or SSH.
 4.	Once you have chose your desired option, then click the copy icon next to the URL.
 5.	Open Git Bash.
 6.	Ensure you are in the correct directory which you want to copy the code into. If not, change the directory.
 7.	In the terminal, write  
-			$ git clone https://github.com/sctlcd/the-vintage-caravan.git
+			$ git clone https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress.git
 8.	Press the enter button and your clone will be created.	 
 
 Back to [top](#TableOfContents)
@@ -413,6 +458,17 @@ Sources of the images used on this site:
 - From images sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images)
 	- galaxy-background.jpg - [Pexels](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)
 	- the-vintage-caravan_brand_logo.png - [thevintagecaravan.eu](https://www.google.com/search?q=the+vintage+caravan+brand+logo&tbm=isch&source=univ&sa=X&ved=2ahUKEwiYu9K-l4HoAhUSQ8AKHd4CDm0QsAR6BAgKEAE&biw=1920&bih=937#imgrc=3KyrQ6IbB53TaM)
+
+
+Sources of the videos used on this site:
+
+- Jam Van session Reeperbahn fest '19: The Vintage Caravan - Reflections [YouTube](https://www.youtube.com/watch?v=CJuaf1Xov5s)
+- THE VINTAGE CARAVAN - 'On The Run' Acoustic Version (EXCLUSIVE VIDEO) [YouTube](https://www.youtube.com/watch?v=jOQ00MtOj6o)
+- The Vintage Caravan live | Rockpalast | 2019 [YouTube](https://www.youtube.com/watch?v=odL0bhBluPE)
+- THE VINTAGE CARAVAN - Reset (OFFICIAL MUSIC VIDEO) [YouTube](https://www.youtube.com/watch?v=6omREbNT9D0)
+- THE VINTAGE CARAVAN - 'Reflections' Acoustic Version (OFFICIAL VIDEO) [YouTube](https://www.youtube.com/watch?v=XwQGYlKIS4k)
+- THE VINTAGE CARAVAN - On The Run (OFFICIAL MUSIC VIDEO) [YouTube](https://www.youtube.com/watch?v=83v95qkUcr0)
+
 
 ### Code <a name="Code"></a>
 

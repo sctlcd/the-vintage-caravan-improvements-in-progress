@@ -1,5 +1,32 @@
 ## Testing <a name="Testing"></a>
 
+### User story validation <a name="Userstoryvalidation"></a>
+
+|  | Galaxy S5 | Pixel | Pixel 2 XL |iPhone 6/7/8 | iPhone 6/7/8 Plus | iPhone X | iPad | iPad Pro | Desktop 1024px | Desktop >1200px |
+| :--- | :--- | :---| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| view the site from any device (mobile, tablet, desktop) | Pass | - | - | - | - | - | - | - | - | - |
+| view the embed YouTube video 'Reset' on the top of the navigation menu on all devices | - | Pass | - | - | - | - | - | - | - | - |
+| view the YouTube standard options bar when I hover the embed video | - | - | Pass | - | - | - | - | - | - | - |
+| access of the navigation menu from anywhere on the website without having to scroll | - | - | - | Pass | - | - | - | - | - | - |
+| view the band's logo as a link on the top left corner of the Home page | - | - | - | - | Pass | - | - | - | - | - |
+| reload the Home page when I click on the band's logo link | - | - | - | - | - | Pass | - | - | - | - |
+| click on each menu item links and navigate to the page with the same name | - | - | - | - | - | - | Pass | - | - | - |
+| scroll through the album pictures within the discography carousel | - | - | - | - | - | - | - | Pass | - | - |
+| open the selected product from the official merchandise store website in a new browser tab when I click on each album picture links within the discography carousel | - | - | - | - | - | - | - | - | Pass | - |
+| open the music platform link of the chosen album in a new browser tab when I click on each music platform links in the music page | - | - | - | - | - | - | - | - | - | Pass |
+| open the selected photo link in a new browser tab when I click on each photo links in the photo page | Pass | - | - | - | - | - | - | - | - | - |
+| open the selected band's 'Bandsintown' event link in a new browser tab when I click on the event date link and the venue event link within the event in Shows page | - | Pass | - | - | - | - | - | - | - | - |
+| view the upcoming event list when I click on the upcoming link in Shows page | - | - | Pass | - | - | - | - | - | - | - |
+| view the archive link disable in the Shows page | - | - | - | Pass | - | - | - | - | - | - |
+| open the band's 'Bandsintown' home page in a new browser tab when I click on the "No shows near you? Ask to play in your city!" button in the Shows page | - | - | - | - | Pass | - | - | - | - | - |
+| open the band's official merchandise store website in a new browser tab when I click on the Show menu item in the navigation menu | - | - | - | - | - | Pass | - | - | - | - |
+| view a contact form with first name, last name, email, message labels and text inputs and a submit button in the Contact page | - | - | - | - | - | - | Pass | - | - | - |
+| view the white social media icon links (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer | - | - | - | - | - | - | - | Pass | - | - |
+| view the green social media icon links (Twitter, Facebook, Instagram, YouTube, Spotify, Apple Music) in the footer when I hover each icon | - | - | - | - | - | - | - | - | Pass | - |
+| open the band's social media home page in a new browser tab when I click on the corresponding social media icon link | - | - | - | - | - | - | - | - | - | Pass |
+| view The Vintage Caravan Copyright mention in the footer | Pass | - | - | - | - | - | - | - | - | - |
+
+
 ### Layout responsiveness <a name="Layoutresponsiveness"></a>
 
 | All pages | Galaxy S5 | Pixel | Pixel 2 XL |iPhone 6/7/8 | iPhone 6/7/8 Plus | iPhone X | iPad | iPad Pro | Desktop 1024px | Desktop >1200px |
@@ -12,12 +39,22 @@
 | *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+|**discography.html** |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | **music.html** |
 | *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | **photos.html** |
+| *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| **videos.html** |
 | *Menu / logo / links / URLs* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
@@ -34,6 +71,7 @@
 | *Images / text / links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Footer links* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 | *Renders as expected* | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+
 
 ### Compatibility <a name="Compatibility"></a>
 

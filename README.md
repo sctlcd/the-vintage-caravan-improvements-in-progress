@@ -1,12 +1,12 @@
-# [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/)
+# [The Vintage Caravan (improvements in progress)](https://sctlcd.github.io/the-vintage-caravan-improvements-in-progress/)
 
-<img src="https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
+<img src="https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/tree/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
 <dl>
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
 <dd>Already a fan of The Vintage Caravan? You've found the right place!</dd>
 <dd>Don't know The Vintage Caravan? You're in the good place!</dd>
 
- [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan/) is the perfect place to discover the band as well as to get information, to listen and buy their albums, to be aware of their gig dates and locations, to know where to buy tickets, to access their merchandise store, to ask the band to play in your city, etc...
+ [The Vintage Caravan (improvements in progress)](https://sctlcd.github.io/the-vintage-caravan-improvements-in-progress/) is the perfect place to discover the band as well as to get information, to listen and buy their albums, to be aware of their gig dates and locations, to know where to buy tickets, to access their merchandise store, to ask the band to play in your city, etc...
 
 I've discovered The Vintage Caravan totally by coincidence. I was in a vintage clothing stores in Malasaña, a musical and artistic Madrid's neighbourhood, with my boyfriend when we listened a fantastic song we've never heard before. We both loved it straight away and were very curious about these musicians. Since then we are big fans of the band.
 We already saw them twice in live. And trust me there will be more for sure! They are stunning!
@@ -142,7 +142,7 @@ In keeping with the **starry night sky** with splendid **Northern Lights** conce
 
 #### Typography <a name="Typography"></a>
 
-- I have opted to use the custom font [Dekar](https://github.com/sctlcd/The-Vintage-Caravan/tree/master/assets/fonts) designed by [Fontfabric](https://www.fontfabric.com/fonts/dekar/) throughout the application. I really like this simple and easy to read font with a vintage style which I believe fits perfectly with the band's style and the website concept. As a secondary font I have imported the [Google Font](https://fonts.google.com/) called [Space Mono](https://fonts.google.com/specimen/Space+Mono).
+- I have opted to use the custom font [Dekar](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/tree/master/app/assets/fonts) designed by [Fontfabric](https://www.fontfabric.com/fonts/dekar/) throughout the application. I really like this simple and easy to read font with a vintage style which I believe fits perfectly with the band's style and the website concept. As a secondary font I have imported the [Google Font](https://fonts.google.com/) called [Space Mono](https://fonts.google.com/specimen/Space+Mono).
 
 ### Wireframes <a name="Wireframes"></a>
 
@@ -150,7 +150,7 @@ I have used [Balsamiq Wireframes](https://balsamiq.com/wireframes/) for my wiref
 - Code Institute have provided all students a free licence until end of 2020. I got to use this software a few years ago and I am pretty happy to get the chance to use it again.
 - The simplicity, rapidity and ease of use by focusing on structure and content.
 
-My wireframes for this project can be found [here](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/wireframes) in the wireframes sub-directory.
+My wireframes for this project can be found [here](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/tree/master/app/wireframes) in the wireframes sub-directory.
 
 Back to [top](#TableOfContents)
 
@@ -176,16 +176,16 @@ All pages across the website include the same `<nav>` and `<footer>`.
 - Social media links allow the user to click on each individual icon and then the band's social media home page opens in a new browser tab.
 - The Vintage Caravan copyright mention is displayed (and my name).
 
-##### [Home page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/index.html) <a name="Homepage"></a>
+##### [Home page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/app/wireframes/01-Home_page.png) <a name="Homepage"></a>
 
 - The primary focus of the "Home" page is the display of the embed Youtube video ['Reset'](https://www.youtube.com/watch?v=6omREbNT9D0) in all devices. Hovering the video displays the options bar giving the user full use of the standard YouTube features: play/pause, previous/next buttons in this case have both the functionality of replay buttons as the video is loaded in loop, mute/unmute, volume, settings, share, open the video in a new browser tab, etc..   
 - It details the band's history in an "About" section.
 
-##### [Discography page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/discography.html) <a name="Discographypage"></a>
+##### [Discography page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/discography.html) <a name="Discographypage"></a>
 
 - It displays a carousel of their discography offering the possibility to click on each album/vinyl links and then opening the selected product from the official merchandise store in a new browser tab.
 
-##### [Music page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/music.html) <a name="Musicpage"></a>
+##### [Music page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/music.html) <a name="Musicpage"></a>
 
 - The "Music" page showcases each album releases offering access to the following platforms :
     - [Apple Store](https://music.apple.com/us/artist/the-vintage-caravan/500284446)
@@ -197,17 +197,17 @@ All pages across the website include the same `<nav>` and `<footer>`.
 - Each platforms links open in a new browser tab.
 - The 3 containers "Album details", "Buy this album", "Listen this album" are displayed in 2 columns on medium, large and extra large devices and in 1 column in small and extra small devices.
 
-##### [Photos page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/photos.html) <a name="Photospage"></a>
+##### [Photos page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/photos.html) <a name="Photospage"></a>
 
 - Clicking on each photos links open the selected link in a new browser tab.
 - A copyright mention is displayed below each pictures.
 - The "Photos" page displays pictures of the band in 3 columns on large and extra large devices, in 2 columns on medium devices and in 1 column on extra small and small devices.
 
-##### [Videos page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/videos.html) <a name="Videospage"></a>
+##### [Videos page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/videos.html) <a name="Videospage"></a>
 
 - It displays some videos of their performances. The standard YouTube features are available.  
 
-##### [Shows page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/shows.html) <a name="Showspage"></a>
+##### [Shows page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/shows.html) <a name="Showspage"></a>
 
 - The "Shows" page displays the upcoming events list with dates and locations.
 - Clicking on an event opens, in a new browser tab, the [''Bandsintown''](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) page of the selected event offering to the user various possibilities (buying tickets, find hotels and vacation rental near the location, setting up an event notification, etc..).
@@ -218,7 +218,7 @@ All pages across the website include the same `<nav>` and `<footer>`.
 
 - The "Store" page opens [The Vintage Caravan official merchandise store](https://www.lo-fi-merchandise.com/band/the-vintage-caravan/?v=d2cb7bbc0d23) website in a new browser tab.
 
-##### [Contact page](https://github.com/sctlcd/The-Vintage-Caravan/blob/master/contact.html) <a name="Contactpage"></a>
+##### [Contact page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/contact.html) <a name="Contactpage"></a>
 
 - The "Contact" page offers the possibility to send a message to the band using EmailJS.
 - The contact form is composed of a name, an email address, a message and a submit button.
@@ -253,7 +253,7 @@ Back to [top](#TableOfContents)
 
 ## Testing <a name="Testing"></a>
 
-Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan/blob/master/app/testing/testing_README.md) or below.
+Please see the testing coverage [here](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/app/testing/testing_README.md) or below.
 
 ### User story validation <a name="Userstoryvalidation"></a>
 
@@ -413,7 +413,7 @@ My inspiration comes from [The Vintage Caravan](https://www.thevintagecaravan.eu
 
 Sources of the images used on this site:
 
-- From gallery sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images/gallery)
+- From gallery sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/tree/master/app/assets/images/gallery)
     - TVC_1.jpg - [copyright Gael Mathieu](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2519674028084513/?type=3&theater)
     - TVC_33.jpg - [copyright Sven Grosch](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2423379847713932/?type=3&theater)
     - TVC_2.jpg - [copyright Julien Dupeyron](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2559313840787198/?type=3&theater)
@@ -439,7 +439,7 @@ Sources of the images used on this site:
     - TVC_27.jpg - [copyright Renato Jacob](https://www.facebook.com/vintagecaravan/photos/a.609371895781412/2752972798087967/?type=3&theater)
     - TVC_23.jpg - [copyright Caro Staley](https://www.facebook.com/vintagecaravan/photos/a.176472825737990/1283809088337686/?type=3&theater)
 
-- From carousel sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images/carousel)
+- From carousel sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/tree/master/app/assets/images/carousel)
     - gateway-vinyl.jpg - [Ebay](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=N-841vKF900L8M)
     - gateways-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=B21CpamTPsfTnM)
     - arrival-cd.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+album+hd&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiZzfTdk4HoAhUUQEEAHe6mCAEQ_AUoAXoECAwQAw&biw=1920&bih=937#imgrc=kYCP-hMIk_mfiM)
@@ -447,7 +447,7 @@ Sources of the images used on this site:
     - voyage-cd.jpg - [Real Rock and Roll](https://www.google.com/search?q=the+vintage+caravan+album+hd&tbm=isch&ved=2ahUKEwjJm6-llYHoAhXCRxUIHR9VBncQ2-cCegQIABAA&oq=the+vintage+caravan+album+hd&gs_l=img.3...153017.155582..156506...0.0..0.66.588.10......0....1..gws-wiz-img.nX3ie_zRfsg&ei=c81fXomWD8KP1fAPn6qZuAc&bih=937&biw=1920#imgrc=LcI3TRgkP2I8yM)
     - voyage-vinyl.jpg - [Nuclear Blast](https://www.google.com/search?q=the+vintage+caravan+vinyl+hd&tbm=isch&ved=2ahUKEwj71bLfk4HoAhU3VxUIHQ7jAHoQ2-cCegQIABAA&oq=the+vintage+caravan+vinyl+hd&gs_l=img.3...204664.208593..208749...0.0..0.64.833.16......0....1..gws-wiz-img.......0i30j0i24.JZPQGifbO-s&ei=1MtfXvubBLeu1fAPjsaD0Ac&bih=937&biw=1920#imgrc=bbYyccKkvV8hPM)
 
-- From music sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images/music)
+- From music sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/tree/master/app/assets/images/music)
     - amazon-mp3-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/amazon-mp3/)
     - apple-music-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-music/)
     - apple-store-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/apple-store/)
@@ -455,19 +455,18 @@ Sources of the images used on this site:
     - google-play-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/google-play/)
     - spotify-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/spotify/)
 
-- From images sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan/tree/master/app/assets/images)
+- From images sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/tree/master/app/assets/images)
 	- galaxy-background.jpg - [Pexels](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)
 	- the-vintage-caravan_brand_logo.png - [thevintagecaravan.eu](https://www.google.com/search?q=the+vintage+caravan+brand+logo&tbm=isch&source=univ&sa=X&ved=2ahUKEwiYu9K-l4HoAhUSQ8AKHd4CDm0QsAR6BAgKEAE&biw=1920&bih=937#imgrc=3KyrQ6IbB53TaM)
 
-
 Sources of the videos used on this site:
 
-- Jam Van session Reeperbahn fest '19: The Vintage Caravan - Reflections [YouTube](https://www.youtube.com/watch?v=CJuaf1Xov5s)
-- THE VINTAGE CARAVAN - 'On The Run' Acoustic Version (EXCLUSIVE VIDEO) [YouTube](https://www.youtube.com/watch?v=jOQ00MtOj6o)
-- The Vintage Caravan live | Rockpalast | 2019 [YouTube](https://www.youtube.com/watch?v=odL0bhBluPE)
-- THE VINTAGE CARAVAN - Reset (OFFICIAL MUSIC VIDEO) [YouTube](https://www.youtube.com/watch?v=6omREbNT9D0)
-- THE VINTAGE CARAVAN - 'Reflections' Acoustic Version (OFFICIAL VIDEO) [YouTube](https://www.youtube.com/watch?v=XwQGYlKIS4k)
-- THE VINTAGE CARAVAN - On The Run (OFFICIAL MUSIC VIDEO) [YouTube](https://www.youtube.com/watch?v=83v95qkUcr0)
+- Jam Van session Reeperbahn fest '19: The Vintage Caravan - Reflections - [YouTube](https://www.youtube.com/watch?v=CJuaf1Xov5s)
+- THE VINTAGE CARAVAN - 'On The Run' Acoustic Version (EXCLUSIVE VIDEO) - [YouTube](https://www.youtube.com/watch?v=jOQ00MtOj6o)
+- The Vintage Caravan live | Rockpalast | 2019 - [YouTube](https://www.youtube.com/watch?v=odL0bhBluPE)
+- THE VINTAGE CARAVAN - Reset (OFFICIAL MUSIC VIDEO) - [YouTube](https://www.youtube.com/watch?v=6omREbNT9D0)
+- THE VINTAGE CARAVAN - 'Reflections' Acoustic Version (OFFICIAL VIDEO) - [YouTube](https://www.youtube.com/watch?v=XwQGYlKIS4k)
+- THE VINTAGE CARAVAN - On The Run (OFFICIAL MUSIC VIDEO) - [YouTube](https://www.youtube.com/watch?v=83v95qkUcr0)
 
 
 ### Code <a name="Code"></a>

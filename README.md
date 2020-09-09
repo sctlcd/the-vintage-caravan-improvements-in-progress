@@ -72,8 +72,8 @@ Go for it!
 
 This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies, the **User-Centric Front-End Development** module. The objective of this milestone project is to "*create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.*"
 
-I have decided to create a website using HTML, CSS and Bootstrap 4 while having the opportunity to spread the world about this rock'n roll band full of humour with a bright future!
-The purpose of this website is to give the opportunity to people to discover the band and to offer a centralised access to the band's information: history, discography, photos, listen and buy albums on various platforms, event dates and locations, their merchandise store, contact the band, etc.
+I have decided to create a website using HTML, CSS and Bootstrap 4 while having the opportunity to spread the world about this rock'n roll band full of humor with a bright future!
+The purpose of this website is to give the opportunity to people to discover the band and to offer a centralized access to the band's information: history, discography, photos, listen and buy albums on various platforms, event dates and locations, their merchandise store, contact the band, etc.
 
 ### User Stories <a name="UserStories"></a>
 
@@ -109,7 +109,7 @@ The purpose of this website is to give the opportunity to people to discover the
 
 When it's come to The Vintage Caravan, I first think about **Rock'n Roll music** and **Island** so this is why I have designed my entire project around the **starry night sky** with splendid **Northern Lights** idea and dark colors.
 
-I wanted to place a particular emphasis on the video [**'Reset'**](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) which I find meaningful, energizing and full of humour. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
+I wanted to place a particular emphasis on the video [**'Reset'**](https://www.youtube.com/watch?time_continue=5&v=6omREbNT9D0&feature=emb_title) which I find meaningful, energizing and full of humor. That's why I choose to integrate it as an embed video on the top on the navigation menu and displaying it in all device sizes. <br>
 *'We proudly present the new video for 'Reset'. The video was made for us by Icelandic production company Obbosí. We've always been fans of fun music videos and we don't like to take ourselves too seriously when it comes to making videos. We had a blast making this one and we're super happy with how it turned out. Hope you like it as much as we do!' ~ Commented bass player Alex on the release - [Nuclear Blast](https://www.nuclearblast.de/en/label/music/band/news/details/5573791.3159218.the-vintage-caravan-raquo-gateways-laquo-out-now.html)*
 
 About the "Music" page, I was looking for a way to put together the 3 containers "Album details", " Buy this album", "Listen this album" in a harmonious and aesthetic manner. I didn't like the 3 containers, each one in 1 column, aligned on the same baseline. The idea of the 3 containers with a staggered positioning in 2 columns but harmoniously centered with each others popped up by trying various positionings in Balsamiq Wireframes.
@@ -132,8 +132,7 @@ In keeping with the **starry night sky** with splendid **Northern Lights** conce
 - ![#ffffff](https://placehold.it/15/ffffff/ffffff) `rgba(255, 255, 255, 0.65)`
 - ![#ffffff](https://placehold.it/15/ffffff/ffffff) `rgba(255, 255, 255, 0.75)`
 - ![#b4b4b4](https://placehold.it/15/b4b4b4/b4b4b4) `rgba(180, 180, 180, 0.9)`
-- ![#398339](https://placehold.it/15/398339/398339) `rgba(57, 131, 57, 0.7)`
-- ![#398339](https://placehold.it/15/398339/398339) `#398339`
+- ![#398339](https://placehold.it/15/398339/398339) `rgba(57, 131, 57, 0.7)`-`#398339`
 
 #### Icons <a name="Icons"></a>
 
@@ -210,8 +209,8 @@ All pages across the website include the same `<nav>` and `<footer>`.
 ##### [Shows page](https://github.com/sctlcd/the-vintage-caravan-improvements-in-progress/blob/master/shows.html) <a name="Showspage"></a>
 
 - The "Shows" page displays the upcoming events list with dates and locations.
-- Clicking on an event opens, in a new browser tab, the [''Bandsintown''](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) page of the selected event offering to the user various possibilities (buying tickets, find hotels and vacation rental near the location, setting up an event notification, etc..).
-- A button at the bottom of the upcoming event list gives the user the chance to ask the band to play in their current city via ['Bandsintown'](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) webpage opening in a new browser tab.
+- Clicking on an event opens, in a new browser tab, the [Bandsintown](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) page of the selected event offering to the user various possibilities (buying tickets, find hotels and vacation rental near the location, setting up an event notification, etc..).
+- A button at the bottom of the upcoming event list gives the user the chance to ask the band to play in their current city via [Bandsintown](https://www.bandsintown.com/a/1550321-the-vintage-caravan?came_from=257) webpage opening in a new browser tab.
 - The archive link is currently disable.
 
 ##### Store page <a name="Storepage"></a>
@@ -225,7 +224,6 @@ All pages across the website include the same `<nav>` and `<footer>`.
 
 ### Features Left to Implement <a name="FeaturesLeftToImplement"></a>
  - Past event list by clicking on archive link (currently disable) in the "Shows" page.
- - Server side of the Contact form.(to be defined)
  - Add a newsletter subscription feature on Home page or on a new page. (to be defined)
 
 Back to [top](#TableOfContents)
@@ -368,8 +366,6 @@ For testing this website on the latest version of Safari, I will have to install
 
 - I've noticed some page refresh issues when going from desktop to mobile (or mobile to mobile with the developer tools), specially in "Home" page and "Music" page. Opening the collapsed menu and selecting a page displays the page correctly. If the collapsed menu icon is not visible click on the band's logo on the top left corner then the "Home" page should be successfully displayed.  
 
-- Opening the photo links from "Photo" page in a new browser has poor performances. It has to be improved in the future.
-
 Back to [top](#TableOfContents)
 
 ---
@@ -467,7 +463,8 @@ Sources of the videos used on this site:
 - THE VINTAGE CARAVAN - Reset (OFFICIAL MUSIC VIDEO) - [YouTube](https://www.youtube.com/watch?v=6omREbNT9D0)
 - THE VINTAGE CARAVAN - 'Reflections' Acoustic Version (OFFICIAL VIDEO) - [YouTube](https://www.youtube.com/watch?v=XwQGYlKIS4k)
 - THE VINTAGE CARAVAN - On The Run (OFFICIAL MUSIC VIDEO) - [YouTube](https://www.youtube.com/watch?v=83v95qkUcr0)
-
+- THE VINTAGE CARAVAN - Surprise Live Acoustic Set - [Facebook](https://www.facebook.com/napalmrecords/videos/624398518409412)
+- THE VINTAGE CARAVAN - Live concert - [Facebook](https://www.facebook.com/watch/live/?v=1051730975246082)
 
 ### Code <a name="Code"></a>
 

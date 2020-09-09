@@ -544,13 +544,19 @@ h6 {
   margin-bottom: 80px;
 }
 
-/*---------------------------------------------- Live page ----------------*/
+/*---------------------------------------------- Videos page ----------------*/
 .live-details {
   margin-bottom: 80px;
 }
 
 .live-container {
   margin: 0px 10px 140px 10px;
+}
+
+.live-container .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*---------------------------------------------- Media queries ----------------*/

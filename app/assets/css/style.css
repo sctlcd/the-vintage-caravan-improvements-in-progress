@@ -229,6 +229,17 @@ h6 {
     font-size: 18px;
 }
 
+.about-container p a {
+  color: rgba(180, 180, 180, 0.9);
+  text-decoration: none;
+}
+
+.about-container p a:hover {
+  font-weight: 700;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(180, 180, 180, 0.9);
+}
+
 /*---------------------------------------------- Discography page ----------------*/
 
 .discography-details-container {

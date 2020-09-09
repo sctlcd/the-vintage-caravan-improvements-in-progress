@@ -222,7 +222,7 @@ h6 {
 .about-container p a:hover {
   font-weight: 700;
   text-decoration: none;
-  text-shadow: 1px 1px rgba(180, 180, 180, 0.9);
+  text-shadow: 0.5px 0.5px rgba(180, 180, 180, 0.9);
 }
 
 /*---------------------------------------------- Discography page ----------------*/

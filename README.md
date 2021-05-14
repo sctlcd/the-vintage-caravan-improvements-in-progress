@@ -21,10 +21,10 @@ Go for it!
 
     -   [User Stories](#UserStories)
     -   [Design](#Design)
-        		\- [Framework](#Framework)
-        		\- [color Scheme](#ColorScheme)
-        		\- [Icons](#Icons)
-        		\- [Typography](#Typography)
+		-   [Framework](#Framework)
+		-   [color Scheme](#ColorScheme)
+		-   [Icons](#Icons)
+		-   [Typography](#Typography)
     -   [Wireframes](#Wireframes)
 
 2.  [Features](#Features)
@@ -458,14 +458,15 @@ Sources of the images used on this site:
     -   google-play-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/google-play/)
     -   spotify-logo-transparent.png - [Ya-webdesign](https://ya-webdesign.com/explore/spotify/)
 
--   From music sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan-latest-version/tree/master/app/assets/images/music)
+-   From videos sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan-latest-version/tree/master/app/assets/images/videos)
 
     -   surprise-live-acoustic-set-min.png - [Facebook](https://www.facebook.com/napalmrecords/videos/624398518409412)
     -   live-concert-min.png - [Facebook](https://www.facebook.com/watch/live/?v=1051730975246082)
 
 -   From images sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan-latest-version/tree/master/app/assets/images)
-    		\- galaxy-background.jpg - [Pexels](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)
-    		\- the-vintage-caravan_brand_logo.png - [thevintagecaravan.eu](https://www.google.com/search?q=the+vintage+caravan+brand+logo&tbm=isch&source=univ&sa=X&ved=2ahUKEwiYu9K-l4HoAhUSQ8AKHd4CDm0QsAR6BAgKEAE&biw=1920&bih=937#imgrc=3KyrQ6IbB53TaM)
+    -   galaxy-background.jpg - [Pexels](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)
+    -   the-vintage-caravan_brand_logo.png - [thevintagecaravan.eu](https://www.google.com/search?q=the+vintage+caravan+brand+logo&tbm=isch&source=univ&sa=X&ved=2ahUKEwiYu9K-l4HoAhUSQ8AKHd4CDm0QsAR6BAgKEAE&biw=1920&bih=937#imgrc=3KyrQ6IbB53TaM)
+	-   favicon.ico - [Fanart](https://fanart.tv/artist/295f594b-b87a-4ba1-947c-dd02d372f67c/vintage-caravan-the/) which I customized | copyright [The Vintage Caravan](http://www.thevintagecaravan.eu/)
 
 Sources of the videos used on this site:
 
@@ -493,7 +494,7 @@ Sources of the videos used on this site:
 ### Acknowledgements <a name="Acknowledgements"></a>
 
 -   [Anthony Ngene](https://github.com/tonymontaro)
-    		\- Thanks to my Code Institute mentor of his time, suggestions, and constructive feedback
+	-   Thanks to my Code Institute mentor of his time, suggestions, and constructive feedback
 
 Back to [top](#TableOfContents)
 

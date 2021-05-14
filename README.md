@@ -1,6 +1,6 @@
 # [The Vintage Caravan](https://sctlcd.github.io/the-vintage-caravan-latest-version/)
 
-<img src="https://github.com/sctlcd/the-vintage-caravan-latest-version/tree/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
+<img src="https://github.com/sctlcd/the-vintage-caravan-latest-version/blob/master/app/wireframes/social_preview_image.png" alt="The Vintage Caravan" width="700">
 <dl>
 <dt>'a classic hard rock of the 60's and 70's with a powerful attitude and a modern twist' ~ The Vintage Caravan. </dt><br>
 <dd>Already a fan of The Vintage Caravan? You've found the right place!</dd>
@@ -465,19 +465,19 @@ Sources of the images used on this site:
 
 -   From images sub-directory - [Github](https://github.com/sctlcd/the-vintage-caravan-latest-version/tree/master/app/assets/images)
     -   galaxy-background.jpg - [Pexels](https://www.pexels.com/photo/beautiful-cosmos-galaxy-milky-way-262662/)
-    -   the-vintage-caravan_brand_logo.png - [thevintagecaravan.eu](https://www.google.com/search?q=the+vintage+caravan+brand+logo&tbm=isch&source=univ&sa=X&ved=2ahUKEwiYu9K-l4HoAhUSQ8AKHd4CDm0QsAR6BAgKEAE&biw=1920&bih=937#imgrc=3KyrQ6IbB53TaM)
+    -   the-vintage-caravan_brand_logo.png - [Napalm Records](https://label.napalmrecords.com/the-vintage-caravan) | copyright [The Vintage Caravan](http://www.thevintagecaravan.eu/)
 	-   favicon.ico - [Fanart](https://fanart.tv/artist/295f594b-b87a-4ba1-947c-dd02d372f67c/vintage-caravan-the/) which I customized | copyright [The Vintage Caravan](http://www.thevintagecaravan.eu/)
 
 Sources of the videos used on this site:
 
 -   Jam Van session Reeperbahn fest '19: The Vintage Caravan - Reflections - [YouTube](https://www.youtube.com/watch?v=CJuaf1Xov5s)
--   THE VINTAGE CARAVAN - 'On The Run' Acoustic Version (EXCLUSIVE VIDEO) - [YouTube](https://www.youtube.com/watch?v=jOQ00MtOj6o)
+-   The Vintage Caravan - 'On The Run' Acoustic Version (EXCLUSIVE VIDEO) - [YouTube](https://www.youtube.com/watch?v=jOQ00MtOj6o)
 -   The Vintage Caravan live | Rockpalast | 2019 - [YouTube](https://www.youtube.com/watch?v=odL0bhBluPE)
--   THE VINTAGE CARAVAN - Reset (OFFICIAL MUSIC VIDEO) - [YouTube](https://www.youtube.com/watch?v=6omREbNT9D0)
--   THE VINTAGE CARAVAN - 'Reflections' Acoustic Version (OFFICIAL VIDEO) - [YouTube](https://www.youtube.com/watch?v=XwQGYlKIS4k)
--   THE VINTAGE CARAVAN - On The Run (OFFICIAL MUSIC VIDEO) - [YouTube](https://www.youtube.com/watch?v=83v95qkUcr0)
--   THE VINTAGE CARAVAN - Surprise Live Acoustic Set - [Facebook](https://www.facebook.com/napalmrecords/videos/624398518409412)
--   THE VINTAGE CARAVAN - Live concert - [Facebook](https://www.facebook.com/watch/live/?v=1051730975246082)
+-   The Vintage Caravan - Reset (OFFICIAL MUSIC VIDEO) - [YouTube](https://www.youtube.com/watch?v=6omREbNT9D0)
+-   The Vintage Caravan - 'Reflections' Acoustic Version (OFFICIAL VIDEO) - [YouTube](https://www.youtube.com/watch?v=XwQGYlKIS4k)
+-   The Vintage Caravan - On The Run (OFFICIAL MUSIC VIDEO) - [YouTube](https://www.youtube.com/watch?v=83v95qkUcr0)
+-   The Vintage Caravan - Surprise Live Acoustic Set - [Facebook](https://www.facebook.com/napalmrecords/videos/624398518409412)
+-   The Vintage Caravan - Live concert - [Facebook](https://www.facebook.com/watch/live/?v=1051730975246082)
 
 ### Code <a name="Code"></a>
 

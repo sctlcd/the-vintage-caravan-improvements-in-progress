@@ -153,6 +153,8 @@ I have used [Balsamiq Wireframes](https://balsamiq.com/wireframes/) for my wiref
 
 My wireframes for this project can be found [here](https://github.com/sctlcd/the-vintage-caravan-latest-version/tree/master/app/wireframes) in the wireframes sub-directory.
 
+My Balsamiq Wireframes are not updated according to the latest version. The free licence provided by Code Institute has expired.
+
 Back to [top](#TableOfContents)
 
 * * *
